@@ -1,0 +1,20 @@
+#include <cstdio>
+#include <cmath>
+#include <iostream>
+#define abs(x) x < 0 ? -x : x
+
+using namespaces std;
+
+int main(void){
+	//read 
+	int n;
+	scanf("%d");
+
+	//soln
+
+
+
+
+	//print
+	printf("%d\n", d);
+}
