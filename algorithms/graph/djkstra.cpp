@@ -7,10 +7,6 @@
 
 using namespace std;
 
-class Person () {
-  int age; 
-  string name;
-}
 
 
 int main(){

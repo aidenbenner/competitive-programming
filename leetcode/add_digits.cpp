@@ -1,15 +1,11 @@
-lass Solution {
+class Solution {
   public:
     //no loop or recursion
     int addDigits(int num) {
-      int sum = 0; 
-
-
-
-    
-
-
-
-      return sum;
+      if(num < 10){
+        return num; 
+      }
+      if(num % 9 == 0) return 9; 
+      return num % 9; 
     }
 };
