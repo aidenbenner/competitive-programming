@@ -19,49 +19,43 @@ typedef unsigned long long ull;
 typedef long long ll;
 
 int N; 
+int A[2001]; 
+int B[4004]; 
+
 int main()
 {
   cin >> N;
 
+  fill(A, A+2001, 0); 
+  fill(B, B+4004, 0); 
+
   int arr[N]; 
   int combs[N]; 
   for(int i = 0; i<N; i++){
-    combs[i] = 0;
-    cin >> arr[i]; 
+    int k; 
+    cin >> k; 
+    A[k]++; 
   }
 
-  sort(arr,arr+N); 
-
-  int l = 0; 
-  int r = N - 1; 
   
-  int count = 1; 
-  int out = 1; 
-  int max_sum = 0; 
-  while(l < r){
-    int sum = arr[l] + arr[r]; 
-    int next_sum = arr[l + 1] + arr[r-1]; 
-
-    if(next_sum == sum){
-      count++; 
-      combs[count]++;
-      l++;
-      r--; 
-      out = max(count,out);
-      continue;
-    }
-    cout << "hit" << endl;
-    count = 0; 
-    combs[0]++; 
-    int diffA = arr[l+1] - arr[l]; 
-    int diffB = arr[r] - arr[r-1]; 
-    if(diffA > diffB){
-      l++;
-    }
-    else{
-      r--; 
+  for(int i = 0; i<2001; i++){
+    for(int k = i + 1; k<2001; k++){
+      if(A[k] == 0 || A[i] ==0) continue;
+      cout << " one way to make " << (i + k) << "  " << i << "  " << k << endl;
+      B[i + k] += 1; 
     }
   }
-  cout << out << "  " <<  combs[out - 1] << endl;
 
+  int maxInd = 1; 
+  for(int i = 4003; i>=1; i--){
+    if(B[i] != 0){
+      cout << i << " " << B[i] << endl;
+      if(B[maxInd] < B[i]){
+        maxInd = i; 
+      }
+    }
+  }
+
+
+  cout << maxInd << " " << B[maxInd] << endl;
 }
