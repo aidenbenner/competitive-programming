@@ -20,10 +20,34 @@ typedef long long ll;
 
 int NA, KA; 
 
-int MEMO[31][901];
-
+ll MEMO[31][901];
 ll FACT[31][31];
 
+inline ll mul_mod(ll a, ll e, ll m){
+  return a * e % m;
+
+  /**
+  ll x = 0, y = a % m; 
+  for(; e>0; e  >>= 1){
+    if(e & 1) x = (x + y) % m; 
+    y = (y << 1) % m; 
+  }
+  return x % m; **/
+}
+
+inline ll mod_exp(ll a, ll b, ll m){
+  ll x = 1; ll y = a; 
+  for(; b > 0; b >>=1) {
+    if(b & 1) x = mul_mod(x,y,m); 
+    y = mul_mod(y,y,m);
+  }
+  return x % m;
+}
+
+inline ll mod_div(ll a, ll b, ll m)
+{
+  return mul_mod(a, mod_exp(b,m-2,m), m);   
+}
 
 ll fact(int i){
   ll out = 1; 
@@ -57,7 +81,8 @@ ll choose(int left, int right)
     out *= N; 
     N--; 
   }
-  return FACT[right][left] = (out / fact(min(left,right)));
+
+  return FACT[right][left] =  (MOD + mod_div(out, fact(min(left,right)), MOD)) % MOD;
 }
 
 ll permute(int N, int K)
@@ -75,6 +100,10 @@ ll permute(int N, int K)
     if(K == 0)
     return 1;
     return 0;
+  }
+
+  if(MEMO[N][K] != -1){
+    return MEMO[N][K]; 
   }
 
   if(K > N * N)
@@ -112,6 +141,8 @@ int main()
     }
   }
 
- cout << permute(NA, KA) << endl;
+  long out = permute(NA,KA); 
+  if(out < 0) out += MOD;
+  cout << out << endl;
 }
 

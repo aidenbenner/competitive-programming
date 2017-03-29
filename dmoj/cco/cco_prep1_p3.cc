@@ -28,72 +28,21 @@ class BST{
 
   public: 
 
+BST(int r, int v) {
+  left = nullptr;
+  right = nullptr;
+  left_child = 0; 
+  right_child = 0; 
+  rank = r; 
+  val = v; 
+}
   int left_child; 
   int right_child; 
-  int height; 
-
-  BST(int r, int v) {
-    left = nullptr;
-    right = nullptr;
-    left_child = 0; 
-    right_child = 0; 
-    rank = r; 
-    val = v; 
-    height = 1; 
-  }
 
 
-  void insert(int r, int v)
-  {
-    if(rank < r){
-        right_child++;
-      if(right == nullptr){
-        BST *bs = new BST(r,v); 
-        right = bs; 
-        return;
-      }
-      right->insert(r,v); 
-    }
-    else{
-        left_child++; 
-      if(left== nullptr){
-        BST *bs = new BST(r,v); 
-        left = bs; 
-        return;
-      }
-      left->insert(r,v); 
-    }
-  }
-
-  int kth_largest(int k){
-
-    if(left_child + 1 == k){
-      return val;
-    }
-    if(k > left_child + right_child + 1){
-      //cout << "less than child" << endl;
-      return -2;
-    }  
-
-    if(k <= left_child){
-      if(left == nullptr) return -7; 
-      return left->kth_largest(k);
-    }
-    if(right == nullptr) return -3; 
-    return right->kth_largest(k - left_child - 1); 
-  }
-
-  void merge(BST *b, int ind)
-  {
-    BST *tmp = b;  
-    if(b == nullptr) return;
-    belongs[b->val] = ind;
-    this->merge(b->left, ind); 
-    delete b->left;
-    this->insert(b->rank, b->val); 
-    this->merge(b->right, ind); 
-    delete b->right;
-  }
+  void insert(int r, int v);
+  void merge(BST *b, int ind);
+  int kth_largest(int k);
 
   void print_tree()
   {
@@ -113,43 +62,68 @@ class BST{
   }
 };
 
+
+
+
+void BST::insert(int r, int v)
+{
+  if(rank < r){
+    right_child++;
+    if(right == nullptr){
+      BST *bs = new BST(r,v); 
+      right = bs; 
+      return;
+    }
+    right->insert(r,v); 
+  }
+  else{
+    left_child++; 
+    if(left== nullptr){
+      BST *bs = new BST(r,v); 
+      left = bs; 
+      return;
+    }
+    left->insert(r,v); 
+  }
+}
+
+int BST::kth_largest(int k){
+
+  if(left_child + 1 == k){
+    return val;
+  }
+  if(k > left_child + right_child + 1){
+    //cout << "less than child" << endl;
+    return -2;
+  }  
+
+  if(k <= left_child){
+    if(left == nullptr) return -7; 
+    return left->kth_largest(k);
+  }
+  if(right == nullptr) return -3; 
+  return right->kth_largest(k - left_child - 1); 
+}
+
+void BST::merge(BST *b, int ind)
+{
+  if(b == nullptr) return;
+  belongs[b->val] = ind;
+  merge(b->left, ind); 
+  delete b->left; 
+  merge(b->right, ind); 
+  delete b->right;
+  insert(b->rank, b->val); 
+}
+
+
+
+
 vector<BST> trees;
 
-BST * rightRotate(BST * y)
-{
-    BST *x = y->left;
-    BST *T2 = x->right;
- 
-    // Perform rotation
-    x->right = y;
-    y->left = T2;
- 
-    // Update heights
-    y->height = max(height(y->left), height(y->right))+1;
-    x->height = max(height(x->left), height(x->right))+1;
- 
-    // Return new root
-    return x;
-}
-
-BST *leftRotate(BST *x)
-{
-    BST *y = x->right;
-    BST *T2 = y->left;
- 
-    // Perform rotation
-    y->left = x;
-    x->right = T2;
- 
-    //  Update heights
-    x->height = max(height(x->left), height(x->right))+1;
-    y->height = max(height(y->left), height(y->right))+1;
- 
-    // Return new root
-    return y;
-}
 
 void make_friend(int A, int B){
+  if(belongs[A] == belongs[B]) return; 
 
   BST *treeA = &trees[belongs[A]]; 
   BST *treeB = &trees[belongs[B]]; 
@@ -208,7 +182,7 @@ int main()
       continue;
     }
     B++;
-//    cout << "QUERY " << B << endl;
+    //    cout << "QUERY " << B << endl;
     //trees[belongs[A]].print_tree(); 
     if(B > trees[belongs[A]].size()) {
       cout << -1 << endl;
