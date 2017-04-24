@@ -1,67 +1,23 @@
-#include <iostream>
 #include <algorithm>
-#include <string> 
+#include <iostream>
 #include <cstdio>
-#include <vector>
-#include <set>
-#include <map>
-#include <unordered_map>
-
-#define INF 1e9
-#define EPS 1e-13
-#define pb push_back
-#define MOD 1000000007
-
+#include <cassert>
+#include <cstdlib>
 using namespace std;
 
-typedef vector<vector<pair<int,int>>> Adjlist;
-typedef unsigned long long ull;
 typedef long long ll;
-
-//dis set
-//                       
-const int DIS_SET_SIZE = 100005;
-int disp[DIS_SET_SIZE];
-int disr[DIS_SET_SIZE];
-
-
-int ds_create(int x){
-  disp[x] = x; 
-  disr[x] = 0; 
-}
-
-int ds_find(int x) {
-  if(x != disp[x]) return disp[x] = ds_find(disp[x]); 
-  return x; 
-}
-
-int ds_merge(int x, int y){
-  x = ds_find(x);
-  y = ds_find(y); 
-
-  if(disr[x] > disr[y]){
-    disp[y] = x; 
-  }
-  else{
-    disp[x] = y; 
-  }
-  if(disr[x] == disr[y])
-    disr[y] = disr[y] + 1;
-}
-
 
 // BEGIN AVL
 template <typename T> 
 struct Node { 
   T val; 
-  int ind; 
   Node<T> *left; 
   Node<T> *right;
   ll lchild;
   ll rchild;
   ll height; 
 
-  Node(T v, int c) : val(v), ind(c), lchild(0), rchild(0), left(nullptr), right(nullptr), height(1){  }
+  Node(T v) : val(v), lchild(0), rchild(0), left(nullptr), right(nullptr), height(1){  }
 
   ll getRightHeight() { 
     if(this->right == nullptr) return 0; 
@@ -81,25 +37,21 @@ struct Node {
     return getRightHeight() - getLeftHeight();
   }
 
-  int size() {
-    return lchild + rchild;
-  }
-
 };
 
 
 template <typename T> 
-Node<T> * insert(Node<T> *root, T val, int n){
+Node<T> * insert(Node<T> *root, T val){
   if(root == nullptr){
-    return new Node<T>(val, n); 
+    return new Node<T>(val); 
   }
 
   if(val < root->val) {
-    root->left = insert(root->left, val, n); 
+    root->left = insert(root->left, val); 
     root->lchild++; 
   }
   else {
-    root->right = insert(root->right, val, n); 
+    root->right = insert(root->right, val); 
     root->rchild++; 
   }
 
@@ -245,13 +197,10 @@ Node<T> * leftrotate(Node<T>* c){
 }
 
 template <typename T> 
-int getKthSmallest(Node<T> *root, ll n) { 
+T getKthSmallest(Node<T> *root, ll n) { 
   if(root == nullptr) return 0; 
-  if(n > 1 + root->lchild + root->rchild){
-    return -1; 
-  }
   if(n == root->lchild + 1){
-    return root->ind; 
+    return root->val; 
   }
   if(n < root->lchild + 1){
     return getKthSmallest(root->left, n); 
@@ -279,72 +228,108 @@ Node<T> *merge(Node<T>*a, Node<T>*b){
   if(a == nullptr) return b; 
   if(b == nullptr) return a; 
 
-  a = merge(a, b->left); 
-  a = insert(a, b->val, b->ind); 
-  return merge(a, b->right); 
+  Node<T> *curr; 
+  Node<T> *parent; 
+  if(a->lchild + a->rchild < b->lchild + b->rchild){
+    curr = a; 
+    parent = b; 
+  }
+  else{ 
+    curr = b; 
+    parent = a; 
+  }
+
+  parent = insert(parent, curr); 
+  Node<T> *merge(parent, curr->right); 
+  Node<T> *merge(parent, curr->left); 
+  curr = delnode(curr,curr->val); 
 }
+
 
 //END AVL
-               
-Node<int>* tre[100005];
 
-void make_friend(int A, int B){
-  int a = ds_find(A);
-  int b = ds_find(B); 
+void test() {
+  Node<int> *root = nullptr; 
 
-  auto treeA = tre[a]; 
-  auto treeB = tre[b]; 
+  vector<int> vr; 
 
-  if(treeA == treeB) return;
+  root = insert(root, 4); 
+  root = insert(root, 2); 
+  root = insert(root, 5); 
+  root = insert(root, 6); 
+  root = insert(root, 9); 
+  root = insert(root, -3); 
+  assert(6 == lookup(root,9)); 
+  root = delnode(root,-3); 
+  assert(5 == lookup(root,9)); 
+  root = delnode(root,5); 
+  assert(4 == lookup(root,9)); 
+  
 
-  ds_merge(a,b); 
-  int c = ds_find(a); 
-  if(treeA->size() >= treeB->size()){
-    tre[c] = merge(treeA, treeB);
+  root = nullptr; 
+  for(int i = 0; i<99999; i++){
+    int r = rand(); 
+    if(lookup(root,r) == -1){
+      vr.push_back(r); 
+      root = insert(root, r); 
+      assert(lookup(root,r) != -1); 
+    }
   }
-  else{
-    tre[c] = merge(treeB, treeA);
+  sort(vr.begin(), vr.end());
+  for(int i = 0; i<vr.size(); i++){
+    cout << lookup(root,vr[i]) << " " << (i + 1) << endl; 
+    assert(lookup(root,vr[i]) == (i + 1) );
+  }
+  for(int i = 0; i<99999; i++){
+    assert(getKthSmallest(root,i+1) == vr[i]); 
+    cout << vr[i] << endl;
+  }
+
+  for(int i = 0; i<vr.size(); i++){
+    root = insert(root, vr[i]); 
+  }
+
+  for(int i = 0; i<vr.size(); i++){
+    root = delnode(root, vr[i]); 
   }
 }
 
+int main(){
+  Node<ll> *root = nullptr; 
+  //test(); 
+  ll N, M; 
+  scanf("%lld %lld", &N, &M); 
+  ll lastans = 0; 
 
-
-int N, M; 
-int main()
-{
-  scanf("%d %d", &N, &M); 
-  for(int i = 0; i<N; i++){
-    int r;
-    scanf("%d ", &r); 
-
-    Node<int> * b = new Node<int>(r,i); 
-    tre[i] = b; 
-    ds_create(i); 
-  } 
-
-  for(int i = 0; i<M; i++){
-    int A, B;
-    scanf("%d %d", &A, &B); 
-    A--;
-    B--; 
-    make_friend(A,B); 
+  while(N--){
+    ll v;
+    scanf("%lld", &v); 
+    root = insert(root, v); 
   }
 
-  int T;
-  scanf("%d", &T);
-  while(T--){
-    char op; 
-    int A, B; 
-    scanf(" %c %d %d", &op, &A, &B); 
-    A--;
-    B--; 
-    if(op == 'B'){
-      make_friend(B,A); 
-      continue;
+  while(M--){
+    char c; 
+    ll v;
+    scanf(" %c %lld", &c, &v); 
+
+    if(c == 'I'){
+      root = insert(root,v ^ lastans); 
     }
-    B++;
-    int out = getKthSmallest(tre[ds_find(A)], B); 
-    if(out == -1){ printf("-1\n"); continue;}
-    printf("%d\n",  (1 + out) );
+    else if(c == 'L'){
+      v = v ^ lastans;
+      lastans = lookup(root,v); 
+      printf("%lld\n", lastans);
+    }
+    else if(c == 'S'){
+      v = v ^ lastans;
+      lastans = getKthSmallest(root,v); 
+      printf("%lld\n", lastans);
+    }
+    else{
+      root = delnode(root,v ^ lastans); 
+    }
   }
+
+  preorder(root);
+  printf("\n"); 
 }
