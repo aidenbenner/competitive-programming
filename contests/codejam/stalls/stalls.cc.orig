@@ -5,12 +5,19 @@
 #include <vector>
 #include <set>
 #include <map>
+<<<<<<< HEAD
+
+#define INF 1e9
+#define EPS 1e-9
+#define pb push_back
+=======
 #include <unordered_map>
 
 #define INF 1e9
 #define EPS 1e-13
 #define pb push_back
 #define MOD 1000000007
+>>>>>>> b440350ff07c038fda17de87b1ccf34b3527fc75
 
 using namespace std;
 
@@ -18,6 +25,25 @@ typedef vector<vector<pair<int,int>>> Adjlist;
 typedef unsigned long long ull;
 typedef long long ll;
 
+<<<<<<< HEAD
+
+
+
+int main()
+{
+  int CASES; 
+  cin >> CASES;
+  for(int t = 1; t<=CASES; t++)
+  {
+    ull in;
+    ull k;
+    cin >> k >> in;
+
+
+    int mid = in / 2; 
+
+    while()
+=======
 int main()
 {
   int cases;
@@ -58,7 +84,14 @@ int main()
 }
 
 
+>>>>>>> b440350ff07c038fda17de87b1ccf34b3527fc75
 
 
 
 
+<<<<<<< HEAD
+    printf("Case #%d: %lld %lld\n", t, out,outh);
+  }
+}
+=======
+>>>>>>> b440350ff07c038fda17de87b1ccf34b3527fc75

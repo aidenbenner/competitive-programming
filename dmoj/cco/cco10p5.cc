@@ -1,7 +1,6 @@
 #include <cstdio>
 #include <cmath>
 
-
 typedef struct {
   double x; 
   double y;
