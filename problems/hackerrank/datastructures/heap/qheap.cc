@@ -1,6 +1,8 @@
-
+#include <cmath>
+#include <cstdio>
 #include <vector>
 #include <iostream>
+#include <algorithm>
 
 typedef long long ll;
 
@@ -52,11 +54,14 @@ class Heap {
     }
 
     void ArbRem(ll v){
-      for(int i = 0; i<hp.size(); i++){
+      for(int i = 0; i<size; i++){
         if(hp[i] == v) {
             swap(hp, i, size - 1); 
             size--; 
+            if(i == size) break;
             HeapifyUp(i);
+            HeapifyDown(i);
+            break;
         }
       }
     }
@@ -83,7 +88,7 @@ class Heap {
     void HeapifyDown(int ind){
       int curr = ind; 
       while((hasLeftChild(ind) && hp[getLeft(ind)] < hp[ind]) || (hasRightChild(ind) && hp[getRight(ind)] < hp[ind])){
-        if(hasLeftChild(ind) && hp[getLeft(ind)] < hp[getRight(ind)]){
+        if(!hasRightChild(ind) || (hasLeftChild(ind) && hp[getLeft(ind)] < hp[getRight(ind)] )){
           swap(hp, getLeft(ind), ind); 
           curr = getLeft(ind);
         } else{
@@ -95,17 +100,29 @@ class Heap {
 };
 
 
-int main(){
-  Heap h; 
-  h.Push(5); 
-  cout << h.Peek() << endl;
-  h.Push(10); 
-  cout << h.Peek() << endl;
-  h.Push(2); 
-  cout << h.Peek() << endl;
-  h.Push(-5); 
-  cout << h.Poll() << endl;
-  cout << h.Poll() << endl;
-  cout << h.Poll() << endl;
-  cout << h.Poll() << endl;
+
+int main() {
+    int Q;
+    cin >> Q;
+
+    Heap hp; 
+
+    while(Q--){
+      int q;
+      ll v;
+      cin >> q;
+
+      if(q == 1){
+        cin >> v;
+        hp.Push(v);
+      }
+      else if(q == 2){
+        cin >> v;
+        hp.ArbRem(v);
+      }
+      else if(q == 3){
+        cout << hp.Peek() << endl;
+      }
+    }
+    return 0;
 }
