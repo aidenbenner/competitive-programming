@@ -33,7 +33,7 @@ public:
         for(int i = 0; i<k; i++){
             out.push_back(curr); 
             int s = 0; 
-            if(curr == nullptr) break;
+            if(curr == nullptr) continue;
             for(int i = 0; i<x; i++){
                 lastCurr = curr;
                 curr = curr->next;
