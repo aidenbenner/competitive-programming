@@ -5,7 +5,6 @@ public:
     int f(string &s, int k, int j){
         if(k + j >= s.size()) return 0; 
         if(k - j < 0) return 0; 
-        cout << k << endl;
         if(s[k + j] == s[k - j]){
             return 1 + f(s, k, j + 1); 
         }
