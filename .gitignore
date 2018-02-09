@@ -1,2 +1,7 @@
-*.o
-*.exe
+*
+!*.c
+!*.cc
+!*.java
+!*.py
+!Makefile
+
