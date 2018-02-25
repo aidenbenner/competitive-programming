@@ -21,63 +21,49 @@ long n, k;
 int main()
 {
     cin >> n >> k;
-    long x[12];
-    fill(x, x+12, 0);
-
-    vector<int> a;
+    vector<int> a; 
     for(int i = 0; i<n; i++){
-        long tmp;
+        int tmp;
         cin >> tmp;
-        a.push_back(tmp % 12); 
+        a.push_back(tmp % 12);
     }
 
-    int offset[] = {0,4,7,10};
-    long longest = 0; 
-    for(int i = 0; i<n; i++){
-        //cout << endl;
-        for(int o = 0; o < 4; o++){
-            int t = offset[o];
-            long curr = 1; 
-            int lives = k;
-            //cout << endl << i << "   " << o << endl;
-            for(int k = i + 1; k<n; k++){
-                int z = (a[k] - a[i] + t + 12 * 3) % 12; 
-                //cout << z << " "; 
-                if(z == 4 || z == 7 || z == 10 || z == 0){
-                }
-                else {
-                    if (lives == 0) {
-                        break;
-                    }
-                    lives--;
-                }
-                curr++;
+    int out = 0;
+    for(int i = 0; i<12; i++){
+        vector<bool> x; 
+        for(int j = 0; j<n; j++){
+            int t = (a[j] + i) % 12 ;
+            switch(t) {
+                case 0:
+                case 4:
+                case 7:
+                case 10:
+                    x.push_back(true);
+                    break;
+                default:
+                    x.push_back(false);
             }
-            //cout << "curr " << curr << endl;
-            longest = max(curr,longest);
         }
-        //cout << endl;
-        for(int o = 0; o < 4; o++){
-            int t = offset[o];
-            long curr = 1; 
-            int lives = k;
-            //cout << endl << i << "   " << o << endl;
-            for(int k = i - 1; k>=0; k--){
-                int z = (a[k] - a[i] + t + 12 * 3) % 12; 
-                //cout << z << " "; 
-                if(z == 4 || z == 7 || z == 10 || z == 0){
-                }
-                else {
-                    if (lives == 0) {
-                        break;
-                    }
-                    lives--;
-                }
-                curr++;
+
+        int l = 0;
+        int r = 0;
+        int c = k;
+        while(r < n){
+            out = max(out, r - l);
+            r++; 
+            if(x[r - 1]){
+                continue;
             }
-            //cout << "curr " << curr << endl;
-            longest = max(curr,longest);
+            c--;
+            if(c == -1){
+                while(x[l]){ 
+                    l++;
+                }
+                l++;
+                c++;
+            }
         }
+        out = max(out, r - l);
     }
-    cout << longest << endl;;
+    cout << out << endl;
 }
