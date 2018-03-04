@@ -11,6 +11,7 @@
 #define EPS 1e-9
 #define lim 1000001
 
+const double e = 2.71828182845904523536028747135266249775724709369995;
 using namespace std;
 
 typedef vector<vector<pair<int,int> > > Adjlist;
@@ -57,19 +58,31 @@ ll perm(ll n, ll k){
     return mod_div(fact((ll)n),  fact((ll)n - (ll)k), MOD);
 }
 
+ll badPaths(ll x){
+      ll sum = 0; 
+      //for(ll i = 2; i<=x; i++){
+            //sum += mod_div(perm(x, i),2, MOD);
+      //}
+      ll total = floor(fact(x - 2) * e) - 1;
+      ll good = mod_div((ll)x * (x - 1), 2, MOD);
+      sum -= good;
+      // printf("%d %lld %lld %lld", x, good, total, sum) 
+
+      if(sum < 0) sum = 0;
+      printf("%llu\n", sum % MOD);
+}
+
 int main()
 {
   scanf("%d", &N); 
   fill(dp, dp + lim, -1); 
+  for(int i = 0; i<100; i++){
+      badPaths((ll)i); 
+  }
+
   for(int T = 1; T<=N; T++){
       ll x;
       scanf("%lld", &x); 
-      ll sum = 0; 
-      for(ll i = 2; i<=x; i++){
-            sum += mod_div(perm(x, i),2, MOD);
-      }
-      sum -= mod_div((ll)x * (x - 1), 2, MOD);
-      if(sum < 0) sum = 0;
-      printf("%llu\n", sum % MOD);
+      printf("%lld", badPaths(x)); 
   }
 }

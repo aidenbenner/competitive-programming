@@ -1,7 +1,4 @@
-*
-!*.c
-!*.cc
-!*.java
-!*.py
-!Makefile
-
+*.DYSM
+*.out
+*.dSYM
+*.in
