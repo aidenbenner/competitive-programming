@@ -28,8 +28,6 @@ ll lcm(ll a, ll b){
   return a / gcd(a,b) * b; 
 }
 
-
-
 typedef vector< vector<ll>> Mat; 
 
 void rowMult(Mat &matrix, int row, ll c){

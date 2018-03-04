@@ -1,0 +1,1466 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/7918d19/
+A	problems/ccc/ccc_03_j5.cc	/^int A,B,N;$/;"	v	typeref:typename:int
+A	problems/ccc/ccc_06_s5.cc	/^  int A,B,C; $/;"	v	typeref:typename:int
+A	problems/ccc/ccc_17_s3.cc	/^int A[2001]; $/;"	v	typeref:typename:int[2001]
+A	problems/dmoj/gcc/gcc_16_p1.cc	/^int N, A, C;$/;"	v	typeref:typename:int
+AddEdge	problems/dmoj/uncategorized/inaho.cc	/^void AddEdge(int U, int V){$/;"	f	typeref:typename:void
+AdjList	codebook/graph/astar.cc	/^typedef vector<vector<int>> AdjList;$/;"	t	typeref:typename:vector<vector<int>>	file:
+AdjList	codebook/graph/dfs.cc	/^typedef vector<vector<int>> AdjList; $/;"	t	typeref:typename:vector<vector<int>>	file:
+AdjList	problems/ccc/ccc_13_s4.cc	/^typedef vector<vector<int>> AdjList; $/;"	t	typeref:typename:vector<vector<int>>	file:
+AdjList	problems/dmoj/other/anoisyclass/main.cpp	/^typedef std::vector<std::vector<int>> AdjList;  $/;"	t	typeref:typename:std::vector<std::vector<int>>	file:
+Adjlist	codebook/math/gaussian_elim.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	codebook/math/general.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	contests/adininitum18/divexplore.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	contests/codejam/misc/oversized_pancakes/oversizedpancakes.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	contests/codejam/misc/stalls/stalls.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	contests/codejam/misc/tidynumbers/tidy.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	contests/tle16/p1.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	contests/tle16/p2.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	contests/tle16/p3.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	contests/tle16/p4.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	contests/weekofcode33/transform-to-palindrome.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	problems/ccc/ccc05s5.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	problems/ccc/ccc_08_s5.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	problems/ccc/ccc_10_j4.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	problems/ccc/ccc_13_j4.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	problems/ccc/ccc_13_s3.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	problems/ccc/ccc_15_s3.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	problems/ccc/ccc_15_s5.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	problems/ccc/ccc_16_s4.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	problems/ccc/ccc_17_s3.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	problems/cco/cco_99_p2.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	problems/cco/cco_prep1_p3.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	problems/dmoj/ahardergame.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	problems/dmoj/coci/coci_14_c7_p2.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	problems/dmoj/dmopc/dmopc_14_c4p4.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	problems/dmoj/gcc/gcc_16_p1.cc	/^typedef vector<vector<pair<int,int> > > Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	problems/dmoj/tle/tle16c5p2.cc	/^typedef vector<vector<pair<int,int> > > Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	problems/dmoj/tle/tle16c7p4.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	problems/dmoj/uncategorized/3drotate.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	problems/dmoj/uncategorized/a_plus_b.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	problems/dmoj/uncategorized/badpaths.cc	/^typedef vector<vector<pair<int,int> > > Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	problems/dmoj/uncategorized/det.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	problems/dmoj/uncategorized/inaho.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	problems/dmoj/uncategorized/next_prime_hard.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	problems/dmoj/uncategorized/pickit.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	problems/dmoj/uncategorized/primefact.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	problems/euler/p23.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	problems/euler/p24.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	problems/euler/p25.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	problems/hackerrank/datastructures/arrays/arrayds.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	problems/ioi/ioi13p4.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	problems/leetcode/anagramsinastring.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	problems/leetcode/licenseplate.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+Adjlist	problems/leetcode/longest_palindromic_substring.cc	/^typedef vector<vector<pair<int,int>>> Adjlist;$/;"	t	typeref:typename:vector<vector<pair<int,int>>>	file:
+ArbRem	codebook/datastructures/heap.cc	/^    void ArbRem(ll v){$/;"	f	class:Heap	typeref:typename:void	file:
+ArbRem	problems/hackerrank/datastructures/heap/qheap.cc	/^    void ArbRem(ll v){$/;"	f	class:Heap	typeref:typename:void	file:
+B	problems/ccc/ccc_03_j5.cc	/^int A,B,N;$/;"	v	typeref:typename:int
+B	problems/ccc/ccc_06_s5.cc	/^  int A,B,C; $/;"	v	typeref:typename:int
+B	problems/ccc/ccc_17_s3.cc	/^int B[4004]; $/;"	v	typeref:typename:int[4004]
+BFS	problems/ccc/ccc_03_s3.cc	/^int BFS(int x, int y){$/;"	f	typeref:typename:int
+BIT_SIZE	codebook/datastructures/binary_index_tree.cc	/^const int BIT_SIZE = 100005; $/;"	v	typeref:typename:const int
+BIT_SIZE	problems/ccc/ccc05s5.cc	/^const int BIT_SIZE = 1000005; $/;"	v	typeref:typename:const int
+BIT_SIZE	problems/cco/cco_10_p3.cc	/^const int BIT_SIZE = 2e7 + 5;$/;"	v	typeref:typename:const int
+BIT_SIZE	problems/dmoj/other/binary_index_tree_test.cc	/^const int BIT_SIZE = 100005; $/;"	v	typeref:typename:const int
+BST	codebook/datastructures/binary_search_tree.cc	/^BST::BST(){$/;"	f	class:BST
+BST	codebook/datastructures/binary_search_tree.cc	/^class BST {$/;"	c	file:
+BST	problems/dmoj/classics/bst.cc	/^class BST {$/;"	c	file:
+C	problems/ccc/ccc_03_s5.cc	/^int C,R,D; $/;"	v	typeref:typename:int
+C	problems/ccc/ccc_06_s5.cc	/^  int A,B,C; $/;"	v	typeref:typename:int
+C	problems/ccc/ccc_08_s3.cc	/^int R, C; $/;"	v	typeref:typename:int
+C	problems/ccc/ccc_12_s5.cc	/^int R,C,K;$/;"	v	typeref:typename:int
+C	problems/dmoj/gcc/gcc_16_p1.cc	/^int N, A, C;$/;"	v	typeref:typename:int
+CFBundleDevelopmentRegion	problems/dmoj/uncategorized/badpaths.dSYM/Contents/Info.plist	/^		<key>CFBundleDevelopmentRegion<\/key>$/;"	k
+CFBundleDevelopmentRegion	problems/euler/p23.dSYM/Contents/Info.plist	/^		<key>CFBundleDevelopmentRegion<\/key>$/;"	k
+CFBundleDevelopmentRegion	problems/euler/p24.dSYM/Contents/Info.plist	/^		<key>CFBundleDevelopmentRegion<\/key>$/;"	k
+CFBundleDevelopmentRegion	problems/euler/p25.dSYM/Contents/Info.plist	/^		<key>CFBundleDevelopmentRegion<\/key>$/;"	k
+CFBundleDevelopmentRegion	problems/euler/test.dSYM/Contents/Info.plist	/^		<key>CFBundleDevelopmentRegion<\/key>$/;"	k
+CFBundleIdentifier	problems/dmoj/uncategorized/badpaths.dSYM/Contents/Info.plist	/^		<key>CFBundleIdentifier<\/key>$/;"	k
+CFBundleIdentifier	problems/euler/p23.dSYM/Contents/Info.plist	/^		<key>CFBundleIdentifier<\/key>$/;"	k
+CFBundleIdentifier	problems/euler/p24.dSYM/Contents/Info.plist	/^		<key>CFBundleIdentifier<\/key>$/;"	k
+CFBundleIdentifier	problems/euler/p25.dSYM/Contents/Info.plist	/^		<key>CFBundleIdentifier<\/key>$/;"	k
+CFBundleIdentifier	problems/euler/test.dSYM/Contents/Info.plist	/^		<key>CFBundleIdentifier<\/key>$/;"	k
+CFBundleInfoDictionaryVersion	problems/dmoj/uncategorized/badpaths.dSYM/Contents/Info.plist	/^		<key>CFBundleInfoDictionaryVersion<\/key>$/;"	k
+CFBundleInfoDictionaryVersion	problems/euler/p23.dSYM/Contents/Info.plist	/^		<key>CFBundleInfoDictionaryVersion<\/key>$/;"	k
+CFBundleInfoDictionaryVersion	problems/euler/p24.dSYM/Contents/Info.plist	/^		<key>CFBundleInfoDictionaryVersion<\/key>$/;"	k
+CFBundleInfoDictionaryVersion	problems/euler/p25.dSYM/Contents/Info.plist	/^		<key>CFBundleInfoDictionaryVersion<\/key>$/;"	k
+CFBundleInfoDictionaryVersion	problems/euler/test.dSYM/Contents/Info.plist	/^		<key>CFBundleInfoDictionaryVersion<\/key>$/;"	k
+CFBundlePackageType	problems/dmoj/uncategorized/badpaths.dSYM/Contents/Info.plist	/^		<key>CFBundlePackageType<\/key>$/;"	k
+CFBundlePackageType	problems/euler/p23.dSYM/Contents/Info.plist	/^		<key>CFBundlePackageType<\/key>$/;"	k
+CFBundlePackageType	problems/euler/p24.dSYM/Contents/Info.plist	/^		<key>CFBundlePackageType<\/key>$/;"	k
+CFBundlePackageType	problems/euler/p25.dSYM/Contents/Info.plist	/^		<key>CFBundlePackageType<\/key>$/;"	k
+CFBundlePackageType	problems/euler/test.dSYM/Contents/Info.plist	/^		<key>CFBundlePackageType<\/key>$/;"	k
+CFBundleShortVersionString	problems/dmoj/uncategorized/badpaths.dSYM/Contents/Info.plist	/^		<key>CFBundleShortVersionString<\/key>$/;"	k
+CFBundleShortVersionString	problems/euler/p23.dSYM/Contents/Info.plist	/^		<key>CFBundleShortVersionString<\/key>$/;"	k
+CFBundleShortVersionString	problems/euler/p24.dSYM/Contents/Info.plist	/^		<key>CFBundleShortVersionString<\/key>$/;"	k
+CFBundleShortVersionString	problems/euler/p25.dSYM/Contents/Info.plist	/^		<key>CFBundleShortVersionString<\/key>$/;"	k
+CFBundleShortVersionString	problems/euler/test.dSYM/Contents/Info.plist	/^		<key>CFBundleShortVersionString<\/key>$/;"	k
+CFBundleSignature	problems/dmoj/uncategorized/badpaths.dSYM/Contents/Info.plist	/^		<key>CFBundleSignature<\/key>$/;"	k
+CFBundleSignature	problems/euler/p23.dSYM/Contents/Info.plist	/^		<key>CFBundleSignature<\/key>$/;"	k
+CFBundleSignature	problems/euler/p24.dSYM/Contents/Info.plist	/^		<key>CFBundleSignature<\/key>$/;"	k
+CFBundleSignature	problems/euler/p25.dSYM/Contents/Info.plist	/^		<key>CFBundleSignature<\/key>$/;"	k
+CFBundleSignature	problems/euler/test.dSYM/Contents/Info.plist	/^		<key>CFBundleSignature<\/key>$/;"	k
+CFBundleVersion	problems/dmoj/uncategorized/badpaths.dSYM/Contents/Info.plist	/^		<key>CFBundleVersion<\/key>$/;"	k
+CFBundleVersion	problems/euler/p23.dSYM/Contents/Info.plist	/^		<key>CFBundleVersion<\/key>$/;"	k
+CFBundleVersion	problems/euler/p24.dSYM/Contents/Info.plist	/^		<key>CFBundleVersion<\/key>$/;"	k
+CFBundleVersion	problems/euler/p25.dSYM/Contents/Info.plist	/^		<key>CFBundleVersion<\/key>$/;"	k
+CFBundleVersion	problems/euler/test.dSYM/Contents/Info.plist	/^		<key>CFBundleVersion<\/key>$/;"	k
+D	problems/ccc/ccc_03_s5.cc	/^int C,R,D; $/;"	v	typeref:typename:int
+D	problems/cco/cco10p5.c	/^int M, N, D;$/;"	v	typeref:typename:int
+D	problems/cco/cco10p5.cc	/^int M, N, D;$/;"	v	typeref:typename:int
+D	problems/dmoj/RGCG/p1.cc	/^int N, D;$/;"	v	typeref:typename:int
+D	problems/dmoj/dmopc/dmopc_16_p5.cc	/^int N, M, D;$/;"	v	typeref:typename:int
+DBG	problems/dmoj/gcc/gcc_16_p1.cc	/^# define DBG(/;"	d	file:
+DEBUG	problems/dmoj/gcc/gcc_16_p1.cc	/^#define DEBUG /;"	d	file:
+DFS	codebook/graph/dfs.cc	/^vector<int> DFS(AdjList & al, int source)$/;"	f	typeref:typename:vector<int>
+DFS	problems/ccc/ccc_01_s3.cc	/^int DFS(int source, vector<bool> visited) $/;"	f	typeref:typename:int
+DFS	problems/ccc/ccc_16_s3.cc	/^int DFS(int source){$/;"	f	typeref:typename:int
+DFS	problems/hackerrank/graph/journey_to_the_moon.cc	/^void DFS(vector<vector<int> >&  pairs, int source, vector<int>& countries){$/;"	f	typeref:typename:void
+DFS	problems/leetcode/lowestCommonAncestor.cc	/^    vector<TreeNode*> DFS(TreeNode* root, TreeNode* search){$/;"	f	class:Solution	typeref:typename:vector<TreeNode * >	file:
+DFS_dist	problems/ccc/ccc_16_s3.cc	/^int DFS_dist(int source){$/;"	f	typeref:typename:int
+DIS_SET_SIZE	codebook/datastructures/disjoint_set.cc	/^const int DIS_SET_SIZE = 100005;$/;"	v	typeref:typename:const int
+DIS_SET_SIZE	contests/weekofcode33/transform-to-palindrome.cc	/^const int DIS_SET_SIZE = 1000005;$/;"	v	typeref:typename:const int
+DIS_SET_SIZE	problems/cco/cco_prep1_p3.cc	/^const int DIS_SET_SIZE = 100005;$/;"	v	typeref:typename:const int
+DIS_SET_SIZE	problems/dmoj/uncategorized/inaho.cc	/^const int DIS_SET_SIZE = 100005;$/;"	v	typeref:typename:const int
+DP	contests/hackercup/round1/p3/manic.cc	/^int DP[101][5001][3]; $/;"	v	typeref:typename:int[101][5001][3]
+DP	problems/ccc/ccc_08_s5.cc	/^int DP[31][31][31][31]; $/;"	v	typeref:typename:int[31][31][31][31]
+DP	problems/dmoj/hackercup/winning_at_sports.cc	/^long long DP[2001][2001][2]; $/;"	v	typeref:typename:long long[2001][2001][2]
+DP	problems/euler/p25.cc	/^ll DP[lim]; $/;"	v	typeref:typename:ll[]
+DP	problems/leetcode/bestbuyIII.cc	/^    vector<vector <int> > DP; $/;"	m	class:Solution	typeref:typename:vector<vector<int>>	file:
+DP	problems/leetcode/buysell3.cc	/^  int DP[][][]; $/;"	m	class:Solution	typeref:typename:int[][][]	file:
+EPS	codebook/math/gaussian_elim.cc	/^#define EPS /;"	d	file:
+EPS	codebook/math/general.cc	/^#define EPS /;"	d	file:
+EPS	contests/adininitum18/divexplore.cc	/^#define EPS /;"	d	file:
+EPS	contests/codejam/misc/oversized_pancakes/oversizedpancakes.cc	/^#define EPS /;"	d	file:
+EPS	contests/codejam/misc/stalls/stalls.cc	/^#define EPS /;"	d	file:
+EPS	contests/codejam/misc/tidynumbers/tidy.cc	/^#define EPS /;"	d	file:
+EPS	contests/tle16/p1.cc	/^#define EPS /;"	d	file:
+EPS	contests/tle16/p2.cc	/^#define EPS /;"	d	file:
+EPS	contests/tle16/p3.cc	/^#define EPS /;"	d	file:
+EPS	contests/tle16/p4.cc	/^#define EPS /;"	d	file:
+EPS	contests/weekofcode33/transform-to-palindrome.cc	/^#define EPS /;"	d	file:
+EPS	problems/ccc/ccc05s5.cc	/^#define EPS /;"	d	file:
+EPS	problems/ccc/ccc_08_s5.cc	/^#define EPS /;"	d	file:
+EPS	problems/ccc/ccc_10_j4.cc	/^#define EPS /;"	d	file:
+EPS	problems/ccc/ccc_13_j4.cc	/^#define EPS /;"	d	file:
+EPS	problems/ccc/ccc_13_s3.cc	/^#define EPS /;"	d	file:
+EPS	problems/ccc/ccc_13_s5.cc	/^#define EPS /;"	d	file:
+EPS	problems/ccc/ccc_15_s3.cc	/^#define EPS /;"	d	file:
+EPS	problems/ccc/ccc_15_s5.cc	/^#define EPS /;"	d	file:
+EPS	problems/ccc/ccc_16_s4.cc	/^#define EPS /;"	d	file:
+EPS	problems/ccc/ccc_17_s3.cc	/^#define EPS /;"	d	file:
+EPS	problems/cco/cco_99_p2.cc	/^#define EPS /;"	d	file:
+EPS	problems/cco/cco_prep1_p3.cc	/^#define EPS /;"	d	file:
+EPS	problems/dmoj/ahardergame.cc	/^#define EPS /;"	d	file:
+EPS	problems/dmoj/coci/coci_14_c7_p2.cc	/^#define EPS /;"	d	file:
+EPS	problems/dmoj/dmopc/dmopc_14_c4p4.cc	/^#define EPS /;"	d	file:
+EPS	problems/dmoj/gcc/gcc_16_p1.cc	/^#define EPS /;"	d	file:
+EPS	problems/dmoj/tle/tle16c5p2.cc	/^#define EPS /;"	d	file:
+EPS	problems/dmoj/tle/tle16c7p4.cc	/^#define EPS /;"	d	file:
+EPS	problems/dmoj/uncategorized/3drotate.cc	/^#define EPS /;"	d	file:
+EPS	problems/dmoj/uncategorized/a_plus_b.cc	/^#define EPS /;"	d	file:
+EPS	problems/dmoj/uncategorized/badpaths.cc	/^#define EPS /;"	d	file:
+EPS	problems/dmoj/uncategorized/det.cc	/^#define EPS /;"	d	file:
+EPS	problems/dmoj/uncategorized/inaho.cc	/^#define EPS /;"	d	file:
+EPS	problems/dmoj/uncategorized/next_prime_hard.cc	/^#define EPS /;"	d	file:
+EPS	problems/dmoj/uncategorized/pickit.cc	/^#define EPS /;"	d	file:
+EPS	problems/dmoj/uncategorized/primefact.cc	/^#define EPS /;"	d	file:
+EPS	problems/euler/p23.cc	/^#define EPS /;"	d	file:
+EPS	problems/euler/p24.cc	/^#define EPS /;"	d	file:
+EPS	problems/euler/p25.cc	/^#define EPS /;"	d	file:
+EPS	problems/hackerrank/datastructures/arrays/arrayds.cc	/^#define EPS /;"	d	file:
+EPS	problems/ioi/ioi13p4.cc	/^#define EPS /;"	d	file:
+EPS	problems/leetcode/anagramsinastring.cc	/^#define EPS /;"	d	file:
+EPS	problems/leetcode/licenseplate.cc	/^#define EPS /;"	d	file:
+EPS	problems/leetcode/longest_palindromic_substring.cc	/^#define EPS /;"	d	file:
+Edge	problems/leetcode/evaluate_division.cpp	/^struct Edge$/;"	s	file:
+G	problems/ccc/ccc_15_s3.cc	/^int G,P; $/;"	v	typeref:typename:int
+Heap	codebook/datastructures/heap.cc	/^    Heap(){$/;"	f	class:Heap	file:
+Heap	codebook/datastructures/heap.cc	/^class Heap {$/;"	c	file:
+Heap	problems/hackerrank/datastructures/heap/qheap.cc	/^    Heap(){$/;"	f	class:Heap	file:
+Heap	problems/hackerrank/datastructures/heap/qheap.cc	/^class Heap {$/;"	c	file:
+HeapifyDown	codebook/datastructures/heap.cc	/^    void HeapifyDown(int ind){$/;"	f	class:Heap	typeref:typename:void	file:
+HeapifyDown	problems/hackerrank/datastructures/heap/qheap.cc	/^    void HeapifyDown(int ind){$/;"	f	class:Heap	typeref:typename:void	file:
+HeapifyUp	codebook/datastructures/heap.cc	/^    void HeapifyUp(int ind){$/;"	f	class:Heap	typeref:typename:void	file:
+HeapifyUp	problems/hackerrank/datastructures/heap/qheap.cc	/^    void HeapifyUp(int ind){$/;"	f	class:Heap	typeref:typename:void	file:
+IList	problems/dmoj/other/anoisyclass/main.cpp	/^typedef std::list<int> IList; $/;"	t	typeref:typename:std::list<int>	file:
+INF	codebook/datastructures/binary_heap.cpp	/^#define INF /;"	d	file:
+INF	codebook/math/gaussian_elim.cc	/^#define INF /;"	d	file:
+INF	codebook/math/general.cc	/^#define INF /;"	d	file:
+INF	contests/adininitum18/divexplore.cc	/^#define INF /;"	d	file:
+INF	contests/codejam/misc/oversized_pancakes/oversizedpancakes.cc	/^#define INF /;"	d	file:
+INF	contests/codejam/misc/stalls/stalls.cc	/^#define INF /;"	d	file:
+INF	contests/codejam/misc/tidynumbers/tidy.cc	/^#define INF /;"	d	file:
+INF	contests/hackercup/round1/p1/pie.cc	/^#define INF /;"	d	file:
+INF	contests/hackercup/round1/p3/manic.cc	/^#define INF /;"	d	file:
+INF	contests/hackercup/round2/p1/p1.cc	/^#define INF /;"	d	file:
+INF	contests/hackercup/round2/p2/p2.cc	/^#define INF /;"	d	file:
+INF	contests/hackercup/round2/p3/p3.cc	/^#define INF /;"	d	file:
+INF	contests/hackercup/round2/p4/p4.cc	/^#define INF /;"	d	file:
+INF	contests/hackercup/round2/template.cc	/^#define INF /;"	d	file:
+INF	contests/tle16/p1.cc	/^#define INF /;"	d	file:
+INF	contests/tle16/p2.cc	/^#define INF /;"	d	file:
+INF	contests/tle16/p3.cc	/^#define INF /;"	d	file:
+INF	contests/tle16/p4.cc	/^#define INF /;"	d	file:
+INF	contests/weekofcode33/transform-to-palindrome.cc	/^#define INF /;"	d	file:
+INF	problems/ccc/ccc05s5.cc	/^#define INF /;"	d	file:
+INF	problems/ccc/ccc_00_s4.cc	/^#define INF /;"	d	file:
+INF	problems/ccc/ccc_02_s4.cc	/^#define INF /;"	d	file:
+INF	problems/ccc/ccc_03_j5.cc	/^#define INF /;"	d	file:
+INF	problems/ccc/ccc_03_s5.cc	/^#define INF /;"	d	file:
+INF	problems/ccc/ccc_07_s4.cc	/^#define INF /;"	d	file:
+INF	problems/ccc/ccc_07_s5.cc	/^#define INF /;"	d	file:
+INF	problems/ccc/ccc_08_s3.cc	/^#define INF /;"	d	file:
+INF	problems/ccc/ccc_08_s5.cc	/^#define INF /;"	d	file:
+INF	problems/ccc/ccc_10_j4.cc	/^#define INF /;"	d	file:
+INF	problems/ccc/ccc_12_s5.cc	/^#define INF /;"	d	file:
+INF	problems/ccc/ccc_13_j4.cc	/^#define INF /;"	d	file:
+INF	problems/ccc/ccc_13_s3.cc	/^#define INF /;"	d	file:
+INF	problems/ccc/ccc_13_s5.cc	/^#define INF /;"	d	file:
+INF	problems/ccc/ccc_15_s3.cc	/^#define INF /;"	d	file:
+INF	problems/ccc/ccc_15_s5.cc	/^#define INF /;"	d	file:
+INF	problems/ccc/ccc_16_s4.cc	/^#define INF /;"	d	file:
+INF	problems/ccc/ccc_17_s3.cc	/^#define INF /;"	d	file:
+INF	problems/cco/cco_99_p2.cc	/^#define INF /;"	d	file:
+INF	problems/cco/cco_prep1_p3.cc	/^#define INF /;"	d	file:
+INF	problems/dmoj/RGCG/p1.cc	/^#define INF /;"	d	file:
+INF	problems/dmoj/RGCG/p2.cc	/^#define INF /;"	d	file:
+INF	problems/dmoj/RGCG/p3.cc	/^#define INF /;"	d	file:
+INF	problems/dmoj/RGCG/p4.cc	/^#define INF /;"	d	file:
+INF	problems/dmoj/RGCG/p5.cc	/^#define INF /;"	d	file:
+INF	problems/dmoj/RGCG/template.cc	/^#define INF /;"	d	file:
+INF	problems/dmoj/ahardergame.cc	/^#define INF /;"	d	file:
+INF	problems/dmoj/classics/shortest_paths.cpp	/^#define INF /;"	d	file:
+INF	problems/dmoj/coci/coci15c1p3.cc	/^#define INF /;"	d	file:
+INF	problems/dmoj/coci/coci_14_c7_p2.cc	/^#define INF /;"	d	file:
+INF	problems/dmoj/dmopc/dmopc_14_c4p4.cc	/^#define INF /;"	d	file:
+INF	problems/dmoj/dmopc/dmopc_16_p5.cc	/^#define INF /;"	d	file:
+INF	problems/dmoj/gcc/gcc_16_p1.cc	/^#define INF /;"	d	file:
+INF	problems/dmoj/tle/tle16c5p2.cc	/^#define INF /;"	d	file:
+INF	problems/dmoj/tle/tle16c7p4.cc	/^#define INF /;"	d	file:
+INF	problems/dmoj/uncategorized/3drotate.cc	/^#define INF /;"	d	file:
+INF	problems/dmoj/uncategorized/a_plus_b.cc	/^#define INF /;"	d	file:
+INF	problems/dmoj/uncategorized/badpaths.cc	/^#define INF /;"	d	file:
+INF	problems/dmoj/uncategorized/det.cc	/^#define INF /;"	d	file:
+INF	problems/dmoj/uncategorized/inaho.cc	/^#define INF /;"	d	file:
+INF	problems/dmoj/uncategorized/next_prime_hard.cc	/^#define INF /;"	d	file:
+INF	problems/dmoj/uncategorized/pickit.cc	/^#define INF /;"	d	file:
+INF	problems/dmoj/uncategorized/primefact.cc	/^#define INF /;"	d	file:
+INF	problems/euler/p23.cc	/^#define INF /;"	d	file:
+INF	problems/euler/p24.cc	/^#define INF /;"	d	file:
+INF	problems/euler/p25.cc	/^#define INF /;"	d	file:
+INF	problems/hackerrank/datastructures/arrays/arrayds.cc	/^#define INF /;"	d	file:
+INF	problems/ioi/ioi13p4.cc	/^#define INF /;"	d	file:
+INF	problems/leetcode/anagramsinastring.cc	/^#define INF /;"	d	file:
+INF	problems/leetcode/besttimetobuy.cc	/^#define INF /;"	d	file:
+INF	problems/leetcode/increseing-path.cc	/^#define INF /;"	d	file:
+INF	problems/leetcode/licenseplate.cc	/^#define INF /;"	d	file:
+INF	problems/leetcode/longest_palindromic_substring.cc	/^#define INF /;"	d	file:
+INF	problems/leetcode/maxbintree.cc	/^#define INF /;"	d	file:
+INF	problems/leetcode/maxprod.cc	/^#define INF /;"	d	file:
+INF	problems/leetcode/perfect_squares.cpp	/^#define INF /;"	d	file:
+INF	problems/leetcode/range_sum_query.cpp	/^#define INF /;"	d	file:
+INF	problems/leetcode/set-zeroes.cc	/^#define INF /;"	d	file:
+INF	problems/leetcode/triple-seq.cc	/^#define INF /;"	d	file:
+INF	problems/leetcode/triplet-sub.cc	/^#define INF /;"	d	file:
+IPair	contests/tle16/p3.cc	/^typedef pair<int,int> IPair;$/;"	t	typeref:typename:pair<int,int>	file:
+IPair	problems/ccc/ccc_03_s5.cc	/^typedef pair<int, int> IPair;$/;"	t	typeref:typename:pair<int,int>	file:
+IPair	problems/dmoj/RGCG/p4.cc	/^typedef pair<int, int> IPair; $/;"	t	typeref:typename:pair<int,int>	file:
+IPair	problems/dmoj/classics/shortest_paths.cpp	/^typedef pair<int,int> IPair; $/;"	t	typeref:typename:pair<int,int>	file:
+IPair	problems/dmoj/dmopc/dmopc_16_p5.cc	/^typedef pair<int, int> IPair;$/;"	t	typeref:typename:pair<int,int>	file:
+IVector	problems/dmoj/other/anoisyclass/main.cpp	/^typedef std::vector<int> IVector; $/;"	t	typeref:typename:std::vector<int>	file:
+Init	problems/dmoj/uncategorized/inaho.cc	/^void Init(int N){$/;"	f	typeref:typename:void
+K	contests/hackercup/round1/p3/manic.cc	/^int N, M, K; $/;"	v	typeref:typename:int
+K	contests/weekofcode33/transform-to-palindrome.cc	/^int N, K, M; $/;"	v	typeref:typename:int
+K	problems/ccc/ccc_07_s5.cc	/^int N,K,W, T;$/;"	v	typeref:typename:int
+K	problems/ccc/ccc_12_s5.cc	/^int R,C,K;$/;"	v	typeref:typename:int
+K	problems/ccc/ccc_15_j5.cc	/^int N, K; $/;"	v	typeref:typename:int
+K	problems/dmoj/coci/coci_14_c7_p2.cc	/^ll N, K; $/;"	v	typeref:typename:ll
+Line	problems/dmoj/dmopc/dmopc16/p3.cpp	/^} Line;$/;"	t	typeref:struct:__anond7ebcdb00108	file:
+LinkedList	codebook/datastructures/linked_list.cpp	/^class LinkedList{$/;"	c	file:
+ListNode	problems/leetcode/sort-list.cpp	/^  ListNode(int x) : val(x), next(NULL) {}$/;"	f	struct:ListNode	file:
+ListNode	problems/leetcode/sort-list.cpp	/^struct ListNode {$/;"	s	file:
+M	contests/hackercup/round1/p1/pie.cc	/^int N, M; $/;"	v	typeref:typename:int
+M	contests/hackercup/round1/p3/manic.cc	/^int N, M, K; $/;"	v	typeref:typename:int
+M	contests/weekofcode33/transform-to-palindrome.cc	/^int N, K, M; $/;"	v	typeref:typename:int
+M	problems/ccc/ccc_02_s4.cc	/^int M, N;$/;"	v	typeref:typename:int
+M	problems/ccc/ccc_16_s3.cc	/^int N, M;$/;"	v	typeref:typename:int
+M	problems/cco/cco10p5.c	/^int M, N, D;$/;"	v	typeref:typename:int
+M	problems/cco/cco10p5.cc	/^int M, N, D;$/;"	v	typeref:typename:int
+M	problems/cco/cco_prep1_p3.cc	/^int N, M; $/;"	v	typeref:typename:int
+M	problems/dmoj/RGCG/p2.cc	/^ll N, M, Q;$/;"	v	typeref:typename:ll
+M	problems/dmoj/RGCG/p4.cc	/^int N, M;$/;"	v	typeref:typename:int
+M	problems/dmoj/classics/shortest_paths.cpp	/^int N, M;$/;"	v	typeref:typename:int
+M	problems/dmoj/dmopc/dmopc_16_p5.cc	/^int N, M, D;$/;"	v	typeref:typename:int
+MEMO	contests/weekofcode33/transform-to-palindrome.cc	/^int MEMO[1005][1005];$/;"	v	typeref:typename:int[1005][1005]
+MEMO	problems/ccc/ccc_00_s4.cc	/^int MEMO[5681]; $/;"	v	typeref:typename:int[5681]
+MEMO	problems/ccc/ccc_02_s4.cc	/^int *MEMO; $/;"	v	typeref:typename:int *
+MEMO	problems/ccc/ccc_03_j5.cc	/^int MEMO[7001];$/;"	v	typeref:typename:int[7001]
+MEMO	problems/ccc/ccc_07_s4.cc	/^int MEMO[10000];$/;"	v	typeref:typename:int[10000]
+MEMO	problems/ccc/ccc_12_s5.cc	/^int MEMO[26][26];$/;"	v	typeref:typename:int[26][26]
+MEMO	problems/ccc/ccc_15_j5.cc	/^int MEMO[251][251][251]; $/;"	v	typeref:typename:int[251][251][251]
+MEMO	problems/ccc/ccc_15_s5.cc	/^int MEMO[3001]; $/;"	v	typeref:typename:int[3001]
+MEMO	problems/ccc/ccc_16_s4.cc	/^int MEMO[N][N]; $/;"	v	typeref:typename:int[][]
+MEMO	problems/dmoj/dmopc/dmopc16/p4.cpp	/^double MEMO[10000];$/;"	v	typeref:typename:double[10000]
+MEMO	problems/dmoj/dmopc/dmopc16/p5.cpp	/^pair MEMO[] ; $/;"	v	typeref:typename:pair[]
+MOD	codebook/math/gaussian_elim.cc	/^#define MOD /;"	d	file:
+MOD	codebook/math/general.cc	/^#define MOD /;"	d	file:
+MOD	contests/adininitum18/towerheight.cc	/^const ull MOD = 1000000007;$/;"	v	typeref:typename:const ull
+MOD	contests/codejam/misc/stalls/stalls.cc	/^#define MOD /;"	d	file:
+MOD	contests/hackercup/round1/p4/umbrella.cc	/^#define MOD /;"	d	file:
+MOD	contests/weekofcode33/transform-to-palindrome.cc	/^const ull MOD = 1e9 + 7;$/;"	v	typeref:typename:const ull
+MOD	problems/ccc/ccc05s5.cc	/^#define MOD /;"	d	file:
+MOD	problems/ccc/ccc_08_s5.cc	/^#define MOD /;"	d	file:
+MOD	problems/ccc/ccc_13_j4.cc	/^const ull MOD = 1e9 + 7;$/;"	v	typeref:typename:const ull
+MOD	problems/ccc/ccc_13_s3.cc	/^const ull MOD = 1e9 + 7;$/;"	v	typeref:typename:const ull
+MOD	problems/ccc/ccc_15_s5.cc	/^#define MOD /;"	d	file:
+MOD	problems/ccc/ccc_16_s4.cc	/^#define MOD /;"	d	file:
+MOD	problems/ccc/ccc_17_s3.cc	/^#define MOD /;"	d	file:
+MOD	problems/cco/cco_prep1_p3.cc	/^#define MOD /;"	d	file:
+MOD	problems/dmoj/ahardergame.cc	/^const ull MOD = 1e9 + 7;$/;"	v	typeref:typename:const ull
+MOD	problems/dmoj/gcc/gcc_16_p1.cc	/^const ull MOD = 1e9 + 7;$/;"	v	typeref:typename:const ull
+MOD	problems/dmoj/hackercup/winning_at_sports.cc	/^#define MOD /;"	d	file:
+MOD	problems/dmoj/tle/tle16c5p2.cc	/^const long MOD = 1e9 + 7;$/;"	v	typeref:typename:const long
+MOD	problems/dmoj/tle/tle16c7p4.cc	/^#define MOD /;"	d	file:
+MOD	problems/dmoj/uncategorized/3drotate.cc	/^#define MOD /;"	d	file:
+MOD	problems/dmoj/uncategorized/badpaths.cc	/^const ull MOD = 1e9 + 7;$/;"	v	typeref:typename:const ull
+MOD	problems/dmoj/uncategorized/det.cc	/^#define MOD /;"	d	file:
+MOD	problems/dmoj/uncategorized/next_prime_hard.cc	/^#define MOD /;"	d	file:
+MOD	problems/dmoj/uncategorized/pickit.cc	/^#define MOD /;"	d	file:
+MOD	problems/euler/p23.cc	/^const ull MOD = 1e9 + 7;$/;"	v	typeref:typename:const ull
+MOD	problems/euler/p24.cc	/^const ull MOD = 1e9 + 7;$/;"	v	typeref:typename:const ull
+MOD	problems/euler/p25.cc	/^const ull MOD = 1e9 + 7;$/;"	v	typeref:typename:const ull
+MOD	problems/leetcode/anagramsinastring.cc	/^const ull MOD = 1e9 + 7;$/;"	v	typeref:typename:const ull
+MOD	problems/leetcode/licenseplate.cc	/^const ull MOD = 1e9 + 7;$/;"	v	typeref:typename:const ull
+MOD	problems/leetcode/longest_palindromic_substring.cc	/^const ull MOD = 1e9 + 7;$/;"	v	typeref:typename:const ull
+Map	problems/leetcode/array_intersection.cpp	/^typedef unordered_map<int,int> Map; $/;"	t	typeref:typename:unordered_map<int,int>	file:
+Mat	codebook/math/gaussian_elim.cc	/^typedef vector< vector<ll>> Mat; $/;"	t	typeref:typename:vector<vector<ll>>	file:
+Mat	problems/dmoj/uncategorized/det.cc	/^typedef vector< vector<ll>> Mat; $/;"	t	typeref:typename:vector<vector<ll>>	file:
+Memo	contests/tle16/p3.cc	/^unordered_map<pair<int, pair<int, vector<bool>>>,int> Memo;$/;"	v	typeref:typename:unordered_map<pair<int,pair<int,vector<bool>>>,int>
+MyStack	problems/leetcode/stackusingqueues.cc	/^    MyStack() {$/;"	f	class:MyStack	file:
+MyStack	problems/leetcode/stackusingqueues.cc	/^class MyStack {$/;"	c	file:
+N	codebook/math/gaussian_elim.cc	/^int N; $/;"	v	typeref:typename:int
+N	contests/adininitum18/divexplore.cc	/^int N; $/;"	v	typeref:typename:int
+N	contests/codejam/misc/tidynumbers/tidy.cc	/^int N; $/;"	v	typeref:typename:int
+N	contests/hackercup/round1/p1/pie.cc	/^int N, M; $/;"	v	typeref:typename:int
+N	contests/hackercup/round1/p3/manic.cc	/^int N, M, K; $/;"	v	typeref:typename:int
+N	contests/tle16/p1.cc	/^int N; $/;"	v	typeref:typename:int
+N	contests/tle16/p2.cc	/^int N; $/;"	v	typeref:typename:int
+N	contests/tle16/p3.cc	/^int N; $/;"	v	typeref:typename:int
+N	contests/tle16/p4.cc	/^int N; $/;"	v	typeref:typename:int
+N	contests/weekofcode33/transform-to-palindrome.cc	/^int N, K, M; $/;"	v	typeref:typename:int
+N	problems/ccc/ccc_02_s4.cc	/^int M, N;$/;"	v	typeref:typename:int
+N	problems/ccc/ccc_03_j5.cc	/^int A,B,N;$/;"	v	typeref:typename:int
+N	problems/ccc/ccc_07_s4.cc	/^int N; $/;"	v	typeref:typename:int
+N	problems/ccc/ccc_07_s5.cc	/^int N,K,W, T;$/;"	v	typeref:typename:int
+N	problems/ccc/ccc_08_s5.cc	/^int N; $/;"	v	typeref:typename:int
+N	problems/ccc/ccc_10_j4.cc	/^int N; $/;"	v	typeref:typename:int
+N	problems/ccc/ccc_13_j4.cc	/^int N; $/;"	v	typeref:typename:int
+N	problems/ccc/ccc_13_s3.cc	/^int N; $/;"	v	typeref:typename:int
+N	problems/ccc/ccc_15_j5.cc	/^int N, K; $/;"	v	typeref:typename:int
+N	problems/ccc/ccc_15_s5.cc	/^int N; $/;"	v	typeref:typename:int
+N	problems/ccc/ccc_16_s3.cc	/^int N, M;$/;"	v	typeref:typename:int
+N	problems/ccc/ccc_16_s4.cc	/^int N; $/;"	v	typeref:typename:int
+N	problems/ccc/ccc_17_s3.cc	/^int N; $/;"	v	typeref:typename:int
+N	problems/cco/cco10p5.c	/^int M, N, D;$/;"	v	typeref:typename:int
+N	problems/cco/cco10p5.cc	/^int M, N, D;$/;"	v	typeref:typename:int
+N	problems/cco/cco_99_p2.cc	/^int N; $/;"	v	typeref:typename:int
+N	problems/cco/cco_prep1_p3.cc	/^int N, M; $/;"	v	typeref:typename:int
+N	problems/dmoj/RGCG/p1.cc	/^int N, D;$/;"	v	typeref:typename:int
+N	problems/dmoj/RGCG/p2.cc	/^ll N, M, Q;$/;"	v	typeref:typename:ll
+N	problems/dmoj/RGCG/p3.cc	/^int N, Q;$/;"	v	typeref:typename:int
+N	problems/dmoj/RGCG/p4.cc	/^int N, M;$/;"	v	typeref:typename:int
+N	problems/dmoj/RGCG/p5.cc	/^int N;$/;"	v	typeref:typename:int
+N	problems/dmoj/RGCG/template.cc	/^int N;$/;"	v	typeref:typename:int
+N	problems/dmoj/ahardergame.cc	/^int N; $/;"	v	typeref:typename:int
+N	problems/dmoj/classics/shortest_paths.cpp	/^int N, M;$/;"	v	typeref:typename:int
+N	problems/dmoj/coci/coci15c1p3.cc	/^int N; $/;"	v	typeref:typename:int
+N	problems/dmoj/coci/coci_14_c7_p2.cc	/^ll N, K; $/;"	v	typeref:typename:ll
+N	problems/dmoj/dmopc/dmopc_14_c4p4.cc	/^int N; $/;"	v	typeref:typename:int
+N	problems/dmoj/dmopc/dmopc_16_p5.cc	/^int N, M, D;$/;"	v	typeref:typename:int
+N	problems/dmoj/gcc/gcc_16_p1.cc	/^int N, A, C;$/;"	v	typeref:typename:int
+N	problems/dmoj/tle/tle16c7p4.cc	/^int N; $/;"	v	typeref:typename:int
+N	problems/dmoj/uncategorized/3drotate.cc	/^int N; $/;"	v	typeref:typename:int
+N	problems/dmoj/uncategorized/a_plus_b.cc	/^int N; $/;"	v	typeref:typename:int
+N	problems/dmoj/uncategorized/badpaths.cc	/^int N; $/;"	v	typeref:typename:int
+N	problems/dmoj/uncategorized/det.cc	/^int N; $/;"	v	typeref:typename:int
+N	problems/dmoj/uncategorized/det.js	/^var N = gets(); $/;"	v
+N	problems/dmoj/uncategorized/next_prime_hard.cc	/^ll N; $/;"	v	typeref:typename:ll
+N	problems/dmoj/uncategorized/nim.py	/^N = int(input()) $/;"	v
+N	problems/dmoj/uncategorized/pickit.cc	/^int N; $/;"	v	typeref:typename:int
+N	problems/dmoj/uncategorized/primefact.cc	/^int N; $/;"	v	typeref:typename:int
+N	problems/euler/p24.cc	/^int N; $/;"	v	typeref:typename:int
+N	problems/euler/p25.cc	/^int N; $/;"	v	typeref:typename:int
+N	problems/hackerrank/datastructures/arrays/arrayds.cc	/^int N; $/;"	v	typeref:typename:int
+N	problems/ioi/ioi13p4.cc	/^int N; $/;"	v	typeref:typename:int
+N	problems/leetcode/anagramsinastring.cc	/^int N; $/;"	v	typeref:typename:int
+Node	codebook/datastructures/avl_tree.cc	/^  Node(T v) : val(v), lchild(0), rchild(0), left(nullptr), right(nullptr), height(1){  }$/;"	f	struct:Node	file:
+Node	codebook/datastructures/avl_tree.cc	/^struct Node { $/;"	s	file:
+Node	codebook/datastructures/binary_search_tree.cc	/^typedef struct Node{$/;"	s	file:
+Node	codebook/datastructures/binary_search_tree.cc	/^} Node; $/;"	t	typeref:struct:Node	file:
+Node	codebook/datastructures/linked_list.cpp	/^struct Node {$/;"	s	file:
+Node	problems/cco/cco_prep1_p3.cc	/^  Node(T v, int c) : val(v), ind(c), lchild(0), rchild(0), left(nullptr), right(nullptr), height/;"	f	struct:Node	file:
+Node	problems/cco/cco_prep1_p3.cc	/^struct Node { $/;"	s	file:
+NumArray	problems/leetcode/range_sum_query.cpp	/^    NumArray(vector<int> &nums) {$/;"	f	class:NumArray	file:
+NumArray	problems/leetcode/range_sum_query.cpp	/^class NumArray {$/;"	c	file:
+P	problems/ccc/ccc_15_s3.cc	/^int G,P; $/;"	v	typeref:typename:int
+PI	contests/tle16/p2.cc	/^#define PI /;"	d	file:
+Pair	problems/ccc/ccc_01_s2.c	/^} Pair;$/;"	t	typeref:struct:__anonc54c39ce0108	file:
+Peek	codebook/datastructures/heap.cc	/^    ll Peek(){$/;"	f	class:Heap	typeref:typename:ll	file:
+Peek	problems/hackerrank/datastructures/heap/qheap.cc	/^    ll Peek(){$/;"	f	class:Heap	typeref:typename:ll	file:
+Planet	problems/cco/cco10p5.c	/^} Planet; $/;"	t	typeref:struct:__anon09a70be80108	file:
+Planet	problems/cco/cco10p5.cc	/^} Planet; $/;"	t	typeref:struct:__anon3e88894b0108	file:
+Point	codebook/graph/astar.cc	/^  Point(double x, double y){$/;"	f	struct:Point	file:
+Point	codebook/graph/astar.cc	/^struct Point {$/;"	s	file:
+Poll	codebook/datastructures/heap.cc	/^    ll Poll(){$/;"	f	class:Heap	typeref:typename:ll	file:
+Poll	problems/hackerrank/datastructures/heap/qheap.cc	/^    ll Poll(){$/;"	f	class:Heap	typeref:typename:ll	file:
+PosDir	problems/dmoj/uncategorized/3drotate.cc	/^struct PosDir {$/;"	s	file:
+Push	codebook/datastructures/heap.cc	/^    void Push(ll val) {$/;"	f	class:Heap	typeref:typename:void	file:
+Push	problems/hackerrank/datastructures/heap/qheap.cc	/^    void Push(ll val) {$/;"	f	class:Heap	typeref:typename:void	file:
+Q	problems/dmoj/RGCG/p2.cc	/^ll N, M, Q;$/;"	v	typeref:typename:ll
+Q	problems/dmoj/RGCG/p3.cc	/^int N, Q;$/;"	v	typeref:typename:int
+R	problems/ccc/ccc_03_s5.cc	/^int C,R,D; $/;"	v	typeref:typename:int
+R	problems/ccc/ccc_08_s3.cc	/^int R, C; $/;"	v	typeref:typename:int
+R	problems/ccc/ccc_12_s5.cc	/^int R,C,K;$/;"	v	typeref:typename:int
+Rad	contests/hackercup/round1/p4/umbrella.cc	/^int Rad[2001]; $/;"	v	typeref:typename:int[2001]
+SIZE	problems/dmoj/uncategorized/a_plus_b.cc	/^#define SIZE /;"	d	file:
+SP	contests/hackercup/round1/p3/manic.cc	/^int SP[101][101]; $/;"	v	typeref:typename:int[101][101]
+Solution	gen_paren.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/3sum.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/H-Index.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/add-two-numbers.py	/^class Solution(object):$/;"	c
+Solution	problems/leetcode/add_digits.cpp	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/add_row.py	/^class Solution:$/;"	c
+Solution	problems/leetcode/anagram.cpp	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/anagramsinastring.py	/^class Solution(object):$/;"	c
+Solution	problems/leetcode/arithmetic-slices.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/arr_intersection.cpp	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/array_intersection.cpp	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/best_buy.cpp	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/bestbuyIII.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/besttimetobuy.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/bin-tree-flatten.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/binary_watch.cpp	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/bottom-left-tree.py	/^class Solution:$/;"	c
+Solution	problems/leetcode/buysell3.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/characters_by_freq.py	/^class Solution:$/;"	c
+Solution	problems/leetcode/climbing_stairs.cpp	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/coinchange.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/cookies.cpp	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/counting-bits.cpp	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/countprimes.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/daily_temp.py	/^class Solution:$/;"	c
+Solution	problems/leetcode/delete_node_ll.cpp	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/distribute-candies.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/duplicates.cpp	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/evaluate_division.cpp	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/excel_sheet.cpp	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/find_the_difference.cpp	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/findkclosestelements.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/first-unique.cpp	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/fizz_buzz.cpp	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/flatten.cpp	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/get_sum.cpp	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/grey.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/increseing-path.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/int-replacement.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/integerbreak.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/invert-binary-tree.cpp	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/invertbin.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/is_subseq.cpp	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/island_perimeter.cpp	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/jugs.cpp	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/largest-palin-product.cc	/^class Solution $/;"	c	file:
+Solution	problems/leetcode/licenseplate.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/longest-inc.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/longest_palin.cpp	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/longest_palindromic_substring.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/longest_uncommon.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/lowestCommonAncestor.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/majority.cpp	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/max-bin-tree.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/max-length-pair.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/max_depth.cpp	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/maxbintree.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/maxdepth.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/maxprod.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/merge-intervals.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/mergebin.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/min_arr_moves.cpp	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/move-zeroes.cpp	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/next-greater-ele-iii.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/nim.cpp	/^Class Solution {$/;"	v	typeref:typename:Class
+Solution	problems/leetcode/ones_and_zeroes.cpp	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/palin-substrs.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/palinsub.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/partition-equal-sub.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/path.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/perfect_squares.cpp	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/permutations.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/powxn.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/prodarray.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/ransom_note.cpp	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/rectanglearea.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/remove-nth.py	/^class Solution:$/;"	c
+Solution	problems/leetcode/reverse-list-ii.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/reverseLinkedList.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/reverse_list.py	/^class Solution:$/;"	c
+Solution	problems/leetcode/reverse_string.cpp	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/rob-II.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/rob.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/rotate-list.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/same_tree.cpp	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/search_in_rotated_arr.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/set-zeroes.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/single_number.cpp	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/single_number_three.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/sort-list.cpp	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/sorted-list-to-binary-tree.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/splitlinkedlist.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/sudoku.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/sum_of_left_leaves.cpp	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/surrounded_regions.cpp	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/trap-rain.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/triple-seq.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/triplet-sub.cc	/^class Solution {$/;"	c	file:
+Solution	problems/leetcode/two_sum.py	/^class Solution:$/;"	c
+Solution	problems/leetcode/word-ladder-II.cc	/^class Solution {$/;"	c	file:
+Spell	contests/hackercup/qual/p3/p3.cpp	/^struct Spell $/;"	s	file:
+Stack	problems/ctci/ch3/stack.cpp	/^Stack::Stack ()$/;"	f	class:Stack
+Stack	problems/ctci/ch3/stack.cpp	/^class Stack {$/;"	c	file:
+StackNode	problems/ctci/ch3/stack.cpp	/^struct StackNode$/;"	s	file:
+Sub	problems/ccc/ccc_03_s4.cc	/^struct Sub{$/;"	s	file:
+SubEqSum	problems/leetcode/partition-equal-sub.cc	/^    bool SubEqSum(vector<int>& nums, int n, int sum, vector<vector<int>>& DP){$/;"	f	class:Solution	typeref:typename:bool	file:
+T	problems/ccc/ccc_07_s5.cc	/^int N,K,W, T;$/;"	v	typeref:typename:int
+T	problems/ccc/ccc_13_s3.cc	/^int T;$/;"	v	typeref:typename:int
+VI	problems/dmoj/RGCG/p1.cc	/^typedef vector<int> VI; $/;"	t	typeref:typename:vector<int>	file:
+VI	problems/dmoj/RGCG/p2.cc	/^typedef vector<int> VI; $/;"	t	typeref:typename:vector<int>	file:
+VI	problems/dmoj/RGCG/p3.cc	/^typedef vector<int> VI; $/;"	t	typeref:typename:vector<int>	file:
+VI	problems/dmoj/RGCG/p4.cc	/^typedef vector<int> VI; $/;"	t	typeref:typename:vector<int>	file:
+VI	problems/dmoj/RGCG/p5.cc	/^typedef vector<int> VI; $/;"	t	typeref:typename:vector<int>	file:
+VI	problems/dmoj/RGCG/template.cc	/^typedef vector<int> VI; $/;"	t	typeref:typename:vector<int>	file:
+Vec	problems/cco/cco10p5.c	/^} Vec;$/;"	t	typeref:struct:__anon09a70be80308	file:
+Vec	problems/cco/cco10p5.cc	/^} Vec;$/;"	t	typeref:struct:__anon3e88894b0308	file:
+Vec3	problems/dmoj/uncategorized/3drotate.cc	/^Vec3::Vec3() : x(0), y(0), z(0) {$/;"	f	class:Vec3
+Vec3	problems/dmoj/uncategorized/3drotate.cc	/^Vec3::Vec3(double x, double y, double z) : x(x), y(y), z(z) {$/;"	f	class:Vec3
+Vec3	problems/dmoj/uncategorized/3drotate.cc	/^class Vec3 {$/;"	c	file:
+VectorHash	contests/tle16/p4.cc	/^struct VectorHash {$/;"	s	file:
+W	problems/ccc/ccc_07_s5.cc	/^int N,K,W, T;$/;"	v	typeref:typename:int
+Waypoint	problems/cco/cco10p5.c	/^} Waypoint;$/;"	t	typeref:struct:__anon09a70be80208	file:
+Waypoint	problems/cco/cco10p5.cc	/^} Waypoint;$/;"	t	typeref:struct:__anon3e88894b0208	file:
+X	problems/dmoj/uncategorized/3drotate.cc	/^double Vec3::X() const {$/;"	f	class:Vec3	typeref:typename:double
+Y	problems/dmoj/uncategorized/3drotate.cc	/^double Vec3::Y() const {$/;"	f	class:Vec3	typeref:typename:double
+Z	problems/dmoj/uncategorized/3drotate.cc	/^double Vec3::Z() const {$/;"	f	class:Vec3	typeref:typename:double
+__anon09a70be80108	problems/cco/cco10p5.c	/^typedef struct {$/;"	s	file:
+__anon09a70be80208	problems/cco/cco10p5.c	/^typedef struct {$/;"	s	file:
+__anon09a70be80308	problems/cco/cco10p5.c	/^typedef struct {$/;"	s	file:
+__anon1c410d770102	problems/cco/cco_99_p2.cc	/^        [&](const string &i, const string &j){$/;"	f	function:main	file:
+__anon3e88894b0108	problems/cco/cco10p5.cc	/^typedef struct {$/;"	s	file:
+__anon3e88894b0208	problems/cco/cco10p5.cc	/^typedef struct {$/;"	s	file:
+__anon3e88894b0308	problems/cco/cco10p5.cc	/^typedef struct {$/;"	s	file:
+__anonc54c39ce0108	problems/ccc/ccc_01_s2.c	/^typedef struct {$/;"	s	file:
+__anond7ebcdb00108	problems/dmoj/dmopc/dmopc16/p3.cpp	/^typedef struct {$/;"	s	file:
+__anond80ffeb20108	problems/dmoj/dmopc/dmopc16/p5.cpp	/^typedef struct { $/;"	s	file:
+a	problems/ccc/ccc_01_s2.c	/^    int a;$/;"	m	struct:__anonc54c39ce0108	typeref:typename:int	file:
+a	problems/ccc/ccc_03_s4.cc	/^  int a; $/;"	m	struct:Sub	typeref:typename:int	file:
+a	problems/ccc/ccc_13_j4.cc	/^vector<int> a;$/;"	v	typeref:typename:vector<int>
+a	problems/dmoj/dmopc/dmopc16/p5.cpp	/^    int a;$/;"	m	struct:__anond80ffeb20108	typeref:typename:int	file:
+a	problems/dmoj/uncategorized/nim.py	/^a = [] $/;"	v
+a	problems/hackerrank/python/hello.py	/^a = int(input()) $/;"	v
+a	problems/leetcode/range_sum_query.cpp	/^    vector<int> a; $/;"	m	class:NumArray	typeref:typename:vector<int>	file:
+abs	problems/dmoj/dmopc/dmopc16/p1.cpp	/^#define abs(/;"	d	file:
+abs	problems/dmoj/dmopc/dmopc16/p2.cpp	/^#define abs(/;"	d	file:
+abs	problems/dmoj/dmopc/dmopc16/p3.cpp	/^#define abs(/;"	d	file:
+abs	problems/dmoj/dmopc/dmopc16/p5.cpp	/^#define abs(/;"	d	file:
+abs	problems/dmoj/dmopc/dmopc16/template.cpp	/^#define abs(/;"	d	file:
+addDigits	problems/leetcode/add_digits.cpp	/^    int addDigits(int num) {$/;"	f	class:Solution	typeref:typename:int	file:
+addMult	codebook/math/gaussian_elim.cc	/^void addMult(Mat &matrix, int rowA,int rowB, ll c){$/;"	f	typeref:typename:void
+addMult	problems/dmoj/uncategorized/det.cc	/^inline void addMult(int rowA,int rowB, ll c){$/;"	f	typeref:typename:void
+addMult	problems/dmoj/uncategorized/det.js	/^function addMult(matrix,rowA,rowB,c){$/;"	f
+addOneRow	problems/leetcode/add_row.py	/^    def addOneRow(self, root, v, d):$/;"	m	class:Solution
+addTwoNumbers	problems/leetcode/add-two-numbers.py	/^    def addTwoNumbers(self, l1, l2):$/;"	m	class:Solution
+add_chars	problems/dmoj/other/a_plus_b_hard/a_plus_b_hard.c	/^void add_chars(char * a, char * b)$/;"	f	typeref:typename:void
+adjList	codebook/graph/astar.cc	/^AdjList adjList;$/;"	v	typeref:typename:AdjList
+adjList	contests/hackercup/round1/p3/manic.cc	/^vector<vector< pair<int,int> >  > adjList;$/;"	v	typeref:typename:vector<vector<pair<int,int>>>
+adjList	problems/ccc/ccc_01_s3.cc	/^vector< vector<int> > adjList;$/;"	v	typeref:typename:vector<vector<int>>
+adjList	problems/ccc/ccc_16_s3.cc	/^vector<vector<int>> adjList;$/;"	v	typeref:typename:vector<vector<int>>
+adjList	problems/dmoj/RGCG/p4.cc	/^vector<vector<IPair>  > adjList;$/;"	v	typeref:typename:vector<vector<IPair>>
+adjList	problems/dmoj/classics/shortest_paths.cpp	/^vector< vector<IPair> > adjList; $/;"	v	typeref:typename:vector<vector<IPair>>
+all	contests/hackercup/round1/p3/makefile	/^all:$/;"	t
+arr	contests/weekofcode33/transform-to-palindrome.cc	/^vector<int> arr; $/;"	v	typeref:typename:vector<int>
+arr	problems/dmoj/uncategorized/pickit.cc	/^int arr[201]; $/;"	v	typeref:typename:int[201]
+astar	codebook/graph/astar.cc	/^int astar(int start, int end){$/;"	f	typeref:typename:int
+b	problems/ccc/ccc_01_s2.c	/^    int b;$/;"	m	struct:__anonc54c39ce0108	typeref:typename:int	file:
+b	problems/ccc/ccc_03_s4.cc	/^  int b; $/;"	m	struct:Sub	typeref:typename:int	file:
+b	problems/dmoj/dmopc/dmopc16/p3.cpp	/^    ll b;$/;"	m	struct:__anond7ebcdb00108	typeref:typename:ll	file:
+b	problems/dmoj/dmopc/dmopc16/p5.cpp	/^    int b;$/;"	m	struct:__anond80ffeb20108	typeref:typename:int	file:
+b	problems/hackerrank/python/hello.py	/^b = int(input()) $/;"	v
+badPaths	problems/dmoj/uncategorized/badpaths.cc	/^ll badPaths(ll x){$/;"	f	typeref:typename:ll
+bfs	problems/ccc/ccc_03_s5.cc	/^int bfs(vector<vector<pair<int,int>>> adjList, bool dest[]){$/;"	f	typeref:typename:int
+bfs	problems/ccc/ccc_08_s3.cc	/^void bfs(vector<vector<char>> & board, vector<vector<bool>> & visited, vector<vector<int>> &  di/;"	f	typeref:typename:void
+bfs	problems/ccc/ccc_13_s4.cc	/^bool bfs(AdjList adj, int p, int q){$/;"	f	typeref:typename:bool
+bfs	problems/dmoj/dmopc/dmopc_16_p5.cc	/^int * bfs(vector<vector<pair<int,int>>> & adjList){$/;"	f	typeref:typename:int *
+binSearchStart	problems/dmoj/gcc/gcc_16_p1.cc	/^int binSearchStart(vector<pair<int,int> > &a, int k) {$/;"	f	typeref:typename:int
+binexp	contests/adininitum18/towerheight.cc	/^ull binexp(ull a, ull b, ull m){$/;"	f	typeref:typename:ull
+bit	codebook/datastructures/binary_index_tree.cc	/^int bit[BIT_SIZE]; $/;"	v	typeref:typename:int[]
+bit	problems/ccc/ccc05s5.cc	/^ll bit[BIT_SIZE]; $/;"	v	typeref:typename:ll[]
+bit	problems/cco/cco_10_p3.cc	/^ll bit[BIT_SIZE]; $/;"	v	typeref:typename:ll[]
+bit	problems/dmoj/other/binary_index_tree_test.cc	/^ll bit[BIT_SIZE]; $/;"	v	typeref:typename:ll[]
+bit2	problems/dmoj/other/binary_index_tree_test.cc	/^ll bit2[BIT_SIZE]; $/;"	v	typeref:typename:ll[]
+board	problems/ccc/ccc_03_s3.cc	/^bool board[25][25]; $/;"	v	typeref:typename:bool[25][25]
+bst_find	problems/cco/cco_10_p3.cc	/^int bst_find(int freq){$/;"	f	typeref:typename:int
+build	codebook/datastructures/segment_tree.cc	/^void build(vector<int> &in)$/;"	f	typeref:typename:void
+build	problems/leetcode/max-bin-tree.cc	/^    TreeNode* build(vector<int>& nums, int n, int start) {$/;"	f	class:Solution	typeref:typename:TreeNode *	file:
+build_heap	codebook/datastructures/binary_heap.cpp	/^void build_heap(vector<int> a)$/;"	f	typeref:typename:void
+c	problems/dmoj/uncategorized/a_plus_b.cc	/^int c[SIZE * 2 + 1];$/;"	v	typeref:typename:int[]
+c	problems/hackerrank/python/list.py	/^    c = input() $/;"	v
+calcEquation	problems/leetcode/evaluate_division.cpp	/^    vector<double> calcEquation(vector<pair<string, string>> equations, vector<double>& values, /;"	f	class:Solution	typeref:typename:vector<double>	file:
+calc_prob	contests/hackercup/qual/p3/p3.cpp	/^double calc_prob(int health, int rolls, int side, int offset)$/;"	f	typeref:typename:double
+canConstruct	problems/leetcode/ransom_note.cpp	/^    bool canConstruct(string ransomNote, string magazine) {$/;"	f	class:Solution	typeref:typename:bool	file:
+canMeasureWater	problems/leetcode/jugs.cpp	/^    bool canMeasureWater(int x, int y, int z) {$/;"	f	class:Solution	typeref:typename:bool	file:
+canMerge	problems/leetcode/merge-intervals.cc	/^    bool canMerge(itr const& a, itr const& b){$/;"	f	class:Solution	typeref:typename:bool	file:
+canPartition	problems/leetcode/partition-equal-sub.cc	/^    bool canPartition(vector<int>& nums) {$/;"	f	class:Solution	typeref:typename:bool	file:
+canVote	problems/ccc/ccc_07_s1.c	/^bool canVote(int y, int m, int d){$/;"	f	typeref:typename:bool
+canwin	problems/ccc/ccc_08_s5.cc	/^int canwin(int a, int b, int c, int d){$/;"	f	typeref:typename:int
+cat	problems/ccc/ccc_12_s5.cc	/^bool cat[26][26];$/;"	v	typeref:typename:bool[26][26]
+charToNumStr	problems/dmoj/other/Mobitel/mobitel.c	/^string charToNumStr(int c){$/;"	f	typeref:typename:string
+charToNumStr	problems/dmoj/other/Mobitel/mobitel.cpp	/^string charToNumStr(int c){$/;"	f	typeref:typename:string
+char_to_int	problems/dmoj/other/a_plus_b_hard/a_plus_b_hard.c	/^int char_to_int(char a){$/;"	f	typeref:typename:int
+check	problems/dmoj/gcc/gcc_16_p1.cc	/^int check(vector<pair<int,int> > &a, int start, int end){$/;"	f	typeref:typename:int
+check_surround	problems/leetcode/surrounded_regions.cpp	/^    bool check_surround(vector<vector<char>>& board, int x, int y)$/;"	f	class:Solution	typeref:typename:bool	file:
+choose	contests/hackercup/round1/p4/umbrella.cc	/^long long choose(long long n, long long spaces){$/;"	f	typeref:typename:long long
+clear_vec	problems/leetcode/sudoku.cc	/^    void clear_vec(vector<bool> &nums){$/;"	f	class:Solution	typeref:typename:void	file:
+climbStairs	problems/leetcode/climbing_stairs.cpp	/^    int climbStairs(int n) {$/;"	f	class:Solution	typeref:typename:int	file:
+close2	problems/dmoj/tle/tle16c7p4.cc	/^int close2(int v){$/;"	f	typeref:typename:int
+coinChange	problems/leetcode/coinchange.cc	/^    int coinChange(vector<int>& coins, int amount) {$/;"	f	class:Solution	typeref:typename:int	file:
+computeArea	problems/leetcode/rectanglearea.cc	/^    int computeArea(int A, int B, int C, int D, int E, int F, int G, int H) {$/;"	f	class:Solution	typeref:typename:int	file:
+constructMaximumBinaryTree	problems/leetcode/max-bin-tree.cc	/^    TreeNode* constructMaximumBinaryTree(vector<int>& nums) {$/;"	f	class:Solution	typeref:typename:TreeNode *	file:
+constructMaximumBinaryTree	problems/leetcode/maxbintree.cc	/^    TreeNode* constructMaximumBinaryTree(vector<int>& nums) {$/;"	f	class:Solution	typeref:typename:TreeNode *	file:
+contains	codebook/datastructures/binary_search_tree.cc	/^bool BST::contains(double val){$/;"	f	class:BST	typeref:typename:bool
+containsDuplicate	problems/leetcode/duplicates.cpp	/^    bool containsDuplicate(vector<int>& nums) {$/;"	f	class:Solution	typeref:typename:bool	file:
+cords	contests/hackercup/round1/p2/fighting_zombies.cc	/^vector < pair<int,int> > cords; $/;"	v	typeref:typename:vector<pair<int,int>>
+countBits	problems/leetcode/counting-bits.cpp	/^    vector<int> countBits(int num) {$/;"	f	class:Solution	typeref:typename:vector<int>	file:
+countPrimes	problems/leetcode/countprimes.cc	/^    int countPrimes(int n) {$/;"	f	class:Solution	typeref:typename:int	file:
+countSolutions	contests/adininitum18/countsolns.cc	/^ll countSolutions(ll a, ll b, ll c, ll d){$/;"	f	typeref:typename:ll
+countSubstrings	problems/leetcode/palin-substrs.cc	/^    int countSubstrings(string s) {$/;"	f	class:Solution	typeref:typename:int	file:
+countSubstrings	problems/leetcode/palinsub.cc	/^    int countSubstrings(string s) {$/;"	f	class:Solution	typeref:typename:int	file:
+count_edges	problems/ccc/ccc_16_s3.cc	/^int count_edges(int source)$/;"	f	typeref:typename:int
+cross	problems/dmoj/uncategorized/3drotate.cc	/^Vec3 Vec3::cross(const Vec3 &a, const Vec3 &b) {$/;"	f	class:Vec3	typeref:typename:Vec3
+dailyTemperatures	problems/leetcode/daily_temp.py	/^    def dailyTemperatures(self, t):$/;"	m	class:Solution
+def	problems/ccc/ccc_03_j5.cc	/^int def[] = {0, 990, 1010, 1970, 2030, 2940, 3060, 3930, 4060, 4970, 5030, 5990, 6010, 7000};$/;"	v	typeref:typename:int[]
+deleteNode	problems/leetcode/delete_node_ll.cpp	/^    void deleteNode(ListNode* node) {$/;"	f	class:Solution	typeref:typename:void	file:
+deletenode	codebook/datastructures/avl_tree.cc	/^Node<T> * deletenode(Node<T>* root, T val, bool first = false){$/;"	f	typeref:typename:Node<T> *
+deletenode	problems/cco/cco_prep1_p3.cc	/^Node<T> * deletenode(Node<T>* root, T val, bool first = false){$/;"	f	typeref:typename:Node<T> *
+delnode	codebook/datastructures/avl_tree.cc	/^Node<T> * delnode(Node<T>* root, T val, bool first = false){$/;"	f	typeref:typename:Node<T> *
+delnode	problems/cco/cco_prep1_p3.cc	/^Node<T> * delnode(Node<T>* root, T val, bool first = false){$/;"	f	typeref:typename:Node<T> *
+det	problems/dmoj/uncategorized/det.js	/^var det = gaussianElim(matrix,true);$/;"	v
+dfs	problems/dmoj/RGCG/p4.cc	/^void dfs(int i)$/;"	f	typeref:typename:void
+dir	problems/dmoj/uncategorized/3drotate.cc	/^  Vec3 dir;$/;"	m	struct:PosDir	typeref:typename:Vec3	file:
+disp	codebook/datastructures/disjoint_set.cc	/^int disp[DIS_SET_SIZE];$/;"	v	typeref:typename:int[]
+disp	contests/weekofcode33/transform-to-palindrome.cc	/^int disp[DIS_SET_SIZE];$/;"	v	typeref:typename:int[]
+disp	problems/cco/cco_prep1_p3.cc	/^int disp[DIS_SET_SIZE];$/;"	v	typeref:typename:int[]
+disp	problems/dmoj/uncategorized/inaho.cc	/^int disp[DIS_SET_SIZE];$/;"	v	typeref:typename:int[]
+disp2	problems/dmoj/uncategorized/inaho.cc	/^int disp2[DIS_SET_SIZE];$/;"	v	typeref:typename:int[]
+disr	codebook/datastructures/disjoint_set.cc	/^int disr[DIS_SET_SIZE];$/;"	v	typeref:typename:int[]
+disr	contests/weekofcode33/transform-to-palindrome.cc	/^int disr[DIS_SET_SIZE];$/;"	v	typeref:typename:int[]
+disr	problems/cco/cco_prep1_p3.cc	/^int disr[DIS_SET_SIZE];$/;"	v	typeref:typename:int[]
+disr	problems/dmoj/uncategorized/inaho.cc	/^int disr[DIS_SET_SIZE];$/;"	v	typeref:typename:int[]
+disr2	problems/dmoj/uncategorized/inaho.cc	/^int disr2[DIS_SET_SIZE];$/;"	v	typeref:typename:int[]
+dist	problems/ccc/ccc_03_j5.cc	/^int dist(int n){$/;"	f	typeref:typename:int
+dist	problems/dmoj/RGCG/p4.cc	/^int dist[1000000]; $/;"	v	typeref:typename:int[1000000]
+dist	problems/dmoj/classics/shortest_paths.cpp	/^int dist[1001]; $/;"	v	typeref:typename:int[1001]
+distributeCandies	problems/leetcode/distribute-candies.cc	/^    int distributeCandies(vector<int>& candies) {$/;"	f	class:Solution	typeref:typename:int	file:
+done	problems/dmoj/RGCG/p4.cc	/^bool done[1000000];$/;"	v	typeref:typename:bool[1000000]
+dot	problems/dmoj/uncategorized/3drotate.cc	/^double Vec3::dot(const Vec3 &a, const Vec3 &b) {$/;"	f	class:Vec3	typeref:typename:double
+dp	problems/ccc/ccc_07_s4.cc	/^int dp(int n){$/;"	f	typeref:typename:int
+dp	problems/ccc/ccc_12_s5.cc	/^int dp(int x, int y){$/;"	f	typeref:typename:int
+dp	problems/dmoj/uncategorized/badpaths.cc	/^ll dp[lim];$/;"	v	typeref:typename:ll[]
+dp	problems/leetcode/range_sum_query.cpp	/^    vector<int> dp; $/;"	m	class:NumArray	typeref:typename:vector<int>	file:
+ds_create	codebook/datastructures/disjoint_set.cc	/^int ds_create(int x){$/;"	f	typeref:typename:int
+ds_create	contests/weekofcode33/transform-to-palindrome.cc	/^int ds_create(int x){$/;"	f	typeref:typename:int
+ds_create	problems/cco/cco_prep1_p3.cc	/^int ds_create(int x){$/;"	f	typeref:typename:int
+ds_create	problems/dmoj/uncategorized/inaho.cc	/^int ds_create(int x){$/;"	f	typeref:typename:int
+ds_find	codebook/datastructures/disjoint_set.cc	/^int ds_find(int x) {$/;"	f	typeref:typename:int
+ds_find	contests/weekofcode33/transform-to-palindrome.cc	/^int ds_find(int x) {$/;"	f	typeref:typename:int
+ds_find	problems/cco/cco_prep1_p3.cc	/^int ds_find(int x) {$/;"	f	typeref:typename:int
+ds_find	problems/dmoj/uncategorized/inaho.cc	/^int ds_find(int x) {$/;"	f	typeref:typename:int
+ds_merge	codebook/datastructures/disjoint_set.cc	/^int ds_merge(int x, int y){$/;"	f	typeref:typename:int
+ds_merge	contests/weekofcode33/transform-to-palindrome.cc	/^int ds_merge(int x, int y){$/;"	f	typeref:typename:int
+ds_merge	problems/cco/cco_prep1_p3.cc	/^int ds_merge(int x, int y){$/;"	f	typeref:typename:int
+ds_merge	problems/dmoj/uncategorized/inaho.cc	/^int ds_merge(int x, int y){$/;"	f	typeref:typename:int
+e	problems/dmoj/uncategorized/badpaths.cc	/^const double e = 2.71828182845904523536028747135266249775724709369995;$/;"	v	typeref:typename:const double
+e	problems/hackerrank/python/list.py	/^        e = int(input())$/;"	v
+e	problems/leetcode/palinsub.cc	/^    int e(string &s, int k, int j){$/;"	f	class:Solution	typeref:typename:int	file:
+empty	problems/leetcode/stackusingqueues.cc	/^    bool empty() {$/;"	f	class:MyStack	typeref:typename:bool	file:
+end	problems/leetcode/evaluate_division.cpp	/^  char end;$/;"	m	struct:Edge	typeref:typename:char	file:
+end	problems/leetcode/merge-intervals.cc	/^      int end;$/;"	m	struct:Solution::itr	typeref:typename:int	file:
+eps	contests/hackercup/qual/p3/p3.cpp	/^static double eps = 0.00000001; $/;"	v	typeref:typename:double	file:
+eps	problems/cco/cco10p5.c	/^double eps = 0.00000001; $/;"	v	typeref:typename:double
+eps	problems/dmoj/RGCG/p1.cc	/^#define eps /;"	d	file:
+exploreCave	problems/ioi/ioi13p4.cc	/^void exploreCave(int N){$/;"	f	typeref:typename:void
+f	contests/adininitum18/countsolns.cc	/^int f (int x, int y, int a, int b){$/;"	f	typeref:typename:int
+f	problems/euler/p24.cc	/^map<int, int> f;$/;"	v	typeref:typename:map<int,int>
+f	problems/leetcode/add_row.py	/^    def f(self,root,v,d,left):$/;"	m	class:Solution
+f	problems/leetcode/bin-tree-flatten.cc	/^    void f(TreeNode* root){$/;"	f	class:Solution	typeref:typename:void	file:
+f	problems/leetcode/bottom-left-tree.py	/^    def f(self, root):$/;"	m	class:Solution
+f	problems/leetcode/maxprod.cc	/^    int f(vector<int>& a, int k){$/;"	f	class:Solution	typeref:typename:int	file:
+f	problems/leetcode/palinsub.cc	/^    int f(string &s, int k, int j){$/;"	f	class:Solution	typeref:typename:int	file:
+fact	problems/dmoj/uncategorized/badpaths.cc	/^ll fact(int n){$/;"	f	typeref:typename:ll
+fact	problems/euler/p24.cc	/^int fact(int x){$/;"	f	typeref:typename:int
+fam	contests/hackercup/round1/p3/manic.cc	/^vector< pair<int,int> > fam; $/;"	v	typeref:typename:vector<pair<int,int>>
+fast	problems/leetcode/maxbintree.cc	/^    TreeNode* fast(vector<int>&a){$/;"	f	class:Solution	typeref:typename:TreeNode *	file:
+fdp	problems/leetcode/maxprod.cc	/^    vector<int> fdp;$/;"	m	class:Solution	typeref:typename:vector<int>	file:
+fib	problems/euler/p25.cc	/^ll fib(int n){$/;"	f	typeref:typename:ll
+final_dist	contests/tle16/p3.cc	/^int final_dist = 0;$/;"	v	typeref:typename:int
+find	problems/cco/cco_10_p3.cc	/^ll find(ll freq){$/;"	f	typeref:typename:ll
+findAnagrams	problems/leetcode/anagramsinastring.py	/^    def findAnagrams(self, s, p):$/;"	m	class:Solution
+findBottomLeftValue	problems/leetcode/bottom-left-tree.py	/^    def findBottomLeftValue(self, root):$/;"	m	class:Solution
+findClosestElements	problems/leetcode/findkclosestelements.cc	/^    vector<int> findClosestElements(vector<int>& arr, int k, int x) {$/;"	f	class:Solution	typeref:typename:vector<int>	file:
+findContentChildren	problems/leetcode/cookies.cpp	/^    int findContentChildren(vector<int>& g, vector<int>& s) {$/;"	f	class:Solution	typeref:typename:int	file:
+findCycles	problems/dmoj/other/anoisyclass/main.cpp	/^bool findCycles(AdjList graph){$/;"	f	typeref:typename:bool
+findDisappearedNumbers	problems/leetcode/num_dis.cpp	/^vector<int> findDisappearedNumbers(vector<int>& nums) {$/;"	f	typeref:typename:vector<int>
+findGroup	problems/ccc/ccc_02_s4.cc	/^void findGroup(int ind){$/;"	f	typeref:typename:void
+findLUSlength	problems/leetcode/longest_uncommon.cc	/^    int findLUSlength(vector<string>& strs) {$/;"	f	class:Solution	typeref:typename:int	file:
+findLadders	problems/leetcode/word-ladder-II.cc	/^    vector<vector<string>> findLadders(string beginWord, string endWord, vector<string>& wordLis/;"	f	class:Solution	typeref:typename:vector<vector<string>>	file:
+findLongestChain	problems/leetcode/max-length-pair.cc	/^    int findLongestChain(vector<vector<int>>& pairs) {$/;"	f	class:Solution	typeref:typename:int	file:
+findMaxForm	problems/leetcode/ones_and_zeroes.cpp	/^    int findMaxForm(vector<string>& strs, int m, int n) {$/;"	f	class:Solution	typeref:typename:int	file:
+findTheDifference	problems/leetcode/find_the_difference.cpp	/^    char findTheDifference(string s, string t) {$/;"	f	class:Solution	typeref:typename:char	file:
+first	problems/leetcode/stackusingqueues.cc	/^    queue<int> first; $/;"	m	class:MyStack	typeref:typename:queue<int>	file:
+firstNode	problems/ctci/ch3/stack.cpp	/^    StackNode* firstNode; $/;"	m	class:Stack	typeref:typename:StackNode *	file:
+firstUniqChar	problems/leetcode/first-unique.cpp	/^    int firstUniqChar(string s) {$/;"	f	class:Solution	typeref:typename:int	file:
+fizzBuzz	problems/leetcode/fizz_buzz.cpp	/^    vector<string> fizzBuzz(int n) {$/;"	f	class:Solution	typeref:typename:vector<string>	file:
+flatify	problems/leetcode/flatten.cpp	/^    TreeNode * flatify(TreeNode* root)$/;"	f	class:Solution	typeref:typename:TreeNode *	file:
+flatten	problems/leetcode/bin-tree-flatten.cc	/^    void flatten(TreeNode* root) {$/;"	f	class:Solution	typeref:typename:void	file:
+flatten	problems/leetcode/flatten.cpp	/^    void flatten(TreeNode* root) {$/;"	f	class:Solution	typeref:typename:void	file:
+flights	problems/ioi/ioi14p3.cc	/^int flights[1500]; $/;"	v	typeref:typename:int[1500]
+free_sub_tree	codebook/datastructures/binary_search_tree.cc	/^void free_sub_tree(Node &node){$/;"	f	typeref:typename:void
+frequencySort	problems/leetcode/characters_by_freq.py	/^    def frequencySort(self, s):$/;"	m	class:Solution
+fx	problems/dmoj/RGCG/p3.cc	/^ll fx(ll  poly[], int n, ll  x){$/;"	f	typeref:typename:ll
+g	problems/leetcode/maxprod.cc	/^    int g(vector<int>& a, int k){$/;"	f	class:Solution	typeref:typename:int	file:
+games	problems/dmoj/hackercup/winning_at_sports.cc	/^long long games(int home, int away, bool stress, int fin_score){$/;"	f	typeref:typename:long long
+gamesPlayed	problems/ccc/ccc_13_s3.cc	/^bool gamesPlayed[4][4];$/;"	v	typeref:typename:bool[4][4]
+gaussianElim	codebook/math/gaussian_elim.cc	/^int gaussianElim(Mat &matrix, bool findDet) {$/;"	f	typeref:typename:int
+gaussianElim	problems/dmoj/uncategorized/det.cc	/^ll gaussianElim(bool findDet) {$/;"	f	typeref:typename:ll
+gaussianElim	problems/dmoj/uncategorized/det.js	/^function gaussianElim(matrix){$/;"	f
+gcd	codebook/math/gaussian_elim.cc	/^ll gcd(ll a, ll b){$/;"	f	typeref:typename:ll
+gcd	codebook/math/general.cc	/^ll gcd(ll a, ll b){$/;"	f	typeref:typename:ll
+gcd	problems/ccc/ccc_02_s2.c	/^int gcd(int a, int b){$/;"	f	typeref:typename:int
+gcd	problems/leetcode/jugs.cpp	/^    int gcd(int a, int b){$/;"	f	class:Solution	typeref:typename:int	file:
+gdp	problems/leetcode/maxprod.cc	/^    vector<int> gdp;$/;"	m	class:Solution	typeref:typename:vector<int>	file:
+gen	problems/dmoj/uncategorized/next_prime_hard.cc	/^void gen(){$/;"	f	typeref:typename:void
+generateParenthesis	gen_paren.cc	/^    vector<string> generateParenthesis(int n) {$/;"	f	class:Solution	typeref:typename:vector<string>	file:
+get	problems/dmoj/tle/tle16c7p4.cc	/^int get(int n)$/;"	f	typeref:typename:int
+getArea	problems/leetcode/rectanglearea.cc	/^    int getArea(int A, int B, int C, int D){$/;"	f	class:Solution	typeref:typename:int	file:
+getAvl	codebook/datastructures/avl_tree.cc	/^  ll getAvl() {$/;"	f	struct:Node	typeref:typename:ll	file:
+getAvl	problems/cco/cco_prep1_p3.cc	/^  ll getAvl() {$/;"	f	struct:Node	typeref:typename:ll	file:
+getComb	problems/leetcode/grey.cc	/^    vector<int> getComb(int n, int k){$/;"	f	class:Solution	typeref:typename:vector<int>	file:
+getDist	codebook/graph/astar.cc	/^  double getDist(Point& b){$/;"	f	struct:Point	typeref:typename:double	file:
+getDist	problems/dmoj/RGCG/p4.cc	/^void getDist(){$/;"	f	typeref:typename:void
+getDistance	problems/ccc/ccc_00_s4.cc	/^int getDistance(int dist, int clubs[], int n, long moves){$/;"	f	typeref:typename:int
+getGamesPlayed	problems/ccc/ccc_13_s3.cc	/^int getGamesPlayed(vector<int> points) {$/;"	f	typeref:typename:int
+getIdentity	problems/dmoj/uncategorized/det.js	/^function getIdentity(row, col){$/;"	f
+getKthSmallest	codebook/datastructures/avl_tree.cc	/^T getKthSmallest(Node<T> *root, ll n) { $/;"	f	typeref:typename:T
+getKthSmallest	problems/cco/cco_prep1_p3.cc	/^int getKthSmallest(Node<T> *root, ll n) { $/;"	f	typeref:typename:int
+getLeft	codebook/datastructures/heap.cc	/^    int getLeft(int ind){ return ind * 2 + 1; }$/;"	f	class:Heap	typeref:typename:int	file:
+getLeft	problems/hackerrank/datastructures/heap/qheap.cc	/^    int getLeft(int ind){ return ind * 2 + 1; }$/;"	f	class:Heap	typeref:typename:int	file:
+getLeftHeight	codebook/datastructures/avl_tree.cc	/^  ll getLeftHeight() { $/;"	f	struct:Node	typeref:typename:ll	file:
+getLeftHeight	problems/cco/cco_prep1_p3.cc	/^  ll getLeftHeight() { $/;"	f	struct:Node	typeref:typename:ll	file:
+getListNum	problems/leetcode/add-two-numbers.py	/^    def getListNum(self, l1):$/;"	m	class:Solution
+getMax	problems/ccc/ccc_02_s4.cc	/^int getMax(int a, int b){$/;"	f	typeref:typename:int
+getMinCost	problems/dmoj/dmopc/dmopc16/p4.cpp	/^double getMinCost(int index, double shoes[]){$/;"	f	typeref:typename:double
+getNumInversions	problems/dmoj/dmopc/dmopc16/p5.cpp	/^int getNumInversions(int bot, int top,  int goal[], int n){$/;"	f	typeref:typename:int
+getParent	codebook/datastructures/heap.cc	/^    int getParent(int ind){ return (ind - 1) \/ 2; }$/;"	f	class:Heap	typeref:typename:int	file:
+getParent	problems/hackerrank/datastructures/heap/qheap.cc	/^    int getParent(int ind){ return (ind - 1) \/ 2; }$/;"	f	class:Heap	typeref:typename:int	file:
+getRight	codebook/datastructures/heap.cc	/^    int getRight(int ind){ return ind * 2 + 2; }$/;"	f	class:Heap	typeref:typename:int	file:
+getRight	problems/hackerrank/datastructures/heap/qheap.cc	/^    int getRight(int ind){ return ind * 2 + 2; }$/;"	f	class:Heap	typeref:typename:int	file:
+getRightHeight	codebook/datastructures/avl_tree.cc	/^  ll getRightHeight() { $/;"	f	struct:Node	typeref:typename:ll	file:
+getRightHeight	problems/cco/cco_prep1_p3.cc	/^  ll getRightHeight() { $/;"	f	struct:Node	typeref:typename:ll	file:
+getSum	problems/leetcode/arithmetic-slices.cc	/^    int getSum(int n){$/;"	f	class:Solution	typeref:typename:int	file:
+getSum	problems/leetcode/get_sum.cpp	/^    int getSum(int a, int b) {$/;"	f	class:Solution	typeref:typename:int	file:
+get_dist	problems/dmoj/tle/tle16c7p4.cc	/^long  get_dist(long n){$/;"	f	typeref:typename:long
+get_freq	problems/leetcode/array_intersection.cpp	/^  unordered_map<int, int> get_freq(vector<int>&nums){$/;"	f	class:Solution	typeref:typename:unordered_map<int,int>	file:
+get_last	problems/leetcode/flatten.cpp	/^  TreeNode * get_last(TreeNode * root){$/;"	f	class:Solution	typeref:typename:TreeNode *	file:
+get_shortest_path	problems/leetcode/evaluate_division.cpp	/^    double get_shortest_path()$/;"	f	class:Solution	typeref:typename:double	file:
+get_size	codebook/datastructures/binary_search_tree.cc	/^int BST::get_size(){$/;"	f	class:BST	typeref:typename:int
+get_time	problems/leetcode/binary_watch.cpp	/^    string get_time(int bits){$/;"	f	class:Solution	typeref:typename:string	file:
+grayCode	problems/leetcode/grey.cc	/^    vector<int> grayCode(int n) {$/;"	f	class:Solution	typeref:typename:vector<int>	file:
+group_size	problems/ccc/ccc_02_s4.cc	/^int *group_size; $/;"	v	typeref:typename:int *
+groups	problems/ccc/ccc_02_s4.cc	/^vector<int> groups; $/;"	v	typeref:typename:vector<int>
+gt2	problems/dmoj/uncategorized/nim.py	/^gt2 = 0$/;"	v
+gt3	problems/dmoj/uncategorized/nim.py	/^gt3 = 0$/;"	v
+gt3o	problems/dmoj/uncategorized/nim.py	/^gt3o = 0$/;"	v
+hIndex	problems/leetcode/H-Index.cc	/^    int hIndex(vector<int>& citations) {$/;"	f	class:Solution	typeref:typename:int	file:
+hasEdge	problems/ioi/ioi14p3.cc	/^int hasEdge(int u, int v){$/;"	f	typeref:typename:int
+hasLeftChild	codebook/datastructures/heap.cc	/^    bool hasLeftChild(int ind){ return getLeft(ind) < size; }$/;"	f	class:Heap	typeref:typename:bool	file:
+hasLeftChild	problems/hackerrank/datastructures/heap/qheap.cc	/^    bool hasLeftChild(int ind){ return getLeft(ind) < size; }$/;"	f	class:Heap	typeref:typename:bool	file:
+hasRightChild	codebook/datastructures/heap.cc	/^    bool hasRightChild(int ind){ return getRight(ind) < size; }$/;"	f	class:Heap	typeref:typename:bool	file:
+hasRightChild	problems/hackerrank/datastructures/heap/qheap.cc	/^    bool hasRightChild(int ind){ return getRight(ind) < size; }$/;"	f	class:Heap	typeref:typename:bool	file:
+head	codebook/datastructures/binary_search_tree.cc	/^    Node * head; $/;"	m	class:BST	typeref:typename:Node *	file:
+height	codebook/datastructures/avl_tree.cc	/^  ll height; $/;"	m	struct:Node	typeref:typename:ll	file:
+height	problems/cco/cco_prep1_p3.cc	/^  ll height; $/;"	m	struct:Node	typeref:typename:ll	file:
+heights	problems/dmoj/coci/coci15c1p3.cc	/^vector<int> heights; $/;"	v	typeref:typename:vector<int>
+hp	codebook/datastructures/heap.cc	/^    vector<ll> hp; $/;"	m	class:Heap	typeref:typename:vector<ll>	file:
+hp	problems/hackerrank/datastructures/heap/qheap.cc	/^    vector<ll> hp; $/;"	m	class:Heap	typeref:typename:vector<ll>	file:
+i	problems/hackerrank/python/list.py	/^        i = int(input())$/;"	v
+i	problems/leetcode/buysell3.cc	/^      for(int i = last + 1; i < prices.size(); i++){$/;"	m	class:Solution	typeref:typename:int	file:
+i	problems/leetcode/buysell3.cc	/^    for(int i = last + 1; i < prices.size(); i++){$/;"	m	class:Solution	typeref:typename:int	file:
+impossible	contests/tle16/p4.cc	/^bool impossible(vector<int> &a, int n){$/;"	f	typeref:typename:bool
+increasingTriplet	problems/leetcode/triple-seq.cc	/^    bool increasingTriplet(vector<int>& nums) {$/;"	f	class:Solution	typeref:typename:bool	file:
+increasingTriplet	problems/leetcode/triplet-sub.cc	/^    bool increasingTriplet(vector<int>& nums) {$/;"	f	class:Solution	typeref:typename:bool	file:
+ind	problems/ccc/ccc_07_s4.cc	/^vector<vi> ind; $/;"	v	typeref:typename:vector<vi>
+ind	problems/cco/cco_prep1_p3.cc	/^  int ind; $/;"	m	struct:Node	typeref:typename:int	file:
+initialize	problems/ioi/ioi14p3.cc	/^void initialize(int n){$/;"	f	typeref:typename:void
+insert	codebook/datastructures/avl_tree.cc	/^Node<T> * insert(Node<T> *root, T val){$/;"	f	typeref:typename:Node<T> *
+insert	codebook/datastructures/binary_search_tree.cc	/^void BST::insert(double val)$/;"	f	class:BST	typeref:typename:void
+insert	problems/cco/cco_prep1_p3.cc	/^Node<T> * insert(Node<T> *root, T val, int n){$/;"	f	typeref:typename:Node<T> *
+insert	problems/hackerrank/datastructures/balanced_trees/avl_insert.cc	/^node * insert(node * root,int val)$/;"	f	typeref:typename:node *
+insert_heap	codebook/datastructures/binary_heap.cpp	/^void insert_heap(vector<int> heap, int val)$/;"	f	typeref:typename:void
+integerBreak	problems/leetcode/integerbreak.cc	/^    int integerBreak(int n) {$/;"	f	class:Solution	typeref:typename:int	file:
+integerReplacement	problems/leetcode/int-replacement.cc	/^    int integerReplacement(long n) {$/;"	f	class:Solution	typeref:typename:int	file:
+interchange	codebook/math/gaussian_elim.cc	/^void interchange(Mat &matrix, int rowA,int rowB){$/;"	f	typeref:typename:void
+interchange	problems/dmoj/uncategorized/det.cc	/^inline void interchange(int rowA,int rowB){$/;"	f	typeref:typename:void
+interchange	problems/dmoj/uncategorized/det.js	/^function interchange(matrix, rowA,rowB){$/;"	f
+intersect	problems/leetcode/array_intersection.cpp	/^    vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {$/;"	f	class:Solution	typeref:typename:vector<int>	file:
+intersection	problems/leetcode/arr_intersection.cpp	/^    vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {$/;"	f	class:Solution	typeref:typename:vector<int>	file:
+inversions	problems/dmoj/dmopc/dmopc16/p5.cpp	/^int inversions = 0; $/;"	v	typeref:typename:int
+invertTree	problems/leetcode/invert-binary-tree.cpp	/^    TreeNode* invertTree(TreeNode* root) {$/;"	f	class:Solution	typeref:typename:TreeNode *	file:
+invertTree	problems/leetcode/invertbin.cc	/^    TreeNode* invertTree(TreeNode* root) {$/;"	f	class:Solution	typeref:typename:TreeNode *	file:
+isAbund	problems/euler/p23.cc	/^bool isAbund[28125]; $/;"	v	typeref:typename:bool[28125]
+isAnagram	problems/leetcode/anagram.cpp	/^    bool isAnagram(string s, string t) {$/;"	f	class:Solution	typeref:typename:bool	file:
+isEmpty	problems/ctci/ch3/stack.cpp	/^bool Stack::isEmpty()$/;"	f	class:Stack	typeref:typename:bool
+isMonkey	problems/ccc/ccc_05_j5.cc	/^bool isMonkey(string s){$/;"	f	typeref:typename:bool
+isNotSA	problems/euler/p23.cc	/^bool isNotSA(int x){$/;"	f	typeref:typename:bool
+isPermute	problems/ctci/cpp/chp1/q2/check_perm.cpp	/^bool isPermute(string a, string b)$/;"	f	typeref:typename:bool
+isSameTree	problems/leetcode/same_tree.cpp	/^    bool isSameTree(TreeNode* p, TreeNode* q) {$/;"	f	class:Solution	typeref:typename:bool	file:
+isSelfCrossing	problems/leetcode/path.cc	/^    bool isSelfCrossing(vector<int>& x) {$/;"	f	class:Solution	typeref:typename:bool	file:
+isSolved	problems/leetcode/sudoku.cc	/^    bool isSolved(vector<vector<int> > board)$/;"	f	class:Solution	typeref:typename:bool	file:
+isSubsequence	problems/leetcode/is_subseq.cpp	/^    bool isSubsequence(string s, string t) {$/;"	f	class:Solution	typeref:typename:bool	file:
+isSubstr	problems/leetcode/longest_uncommon.cc	/^    bool isSubstr(string a, string b){$/;"	f	class:Solution	typeref:typename:bool	file:
+isSubstr	problems/leetcode/palin-substrs.cc	/^    int isSubstr(vector<vector<int>>& DP, string& s, int st, int e){$/;"	f	class:Solution	typeref:typename:int	file:
+islandPerimeter	problems/leetcode/island_perimeter.cpp	/^    int islandPerimeter(vector<vector<int>>& grid) {$/;"	f	class:Solution	typeref:typename:int	file:
+itr	problems/leetcode/merge-intervals.cc	/^      itr() {$/;"	f	struct:Solution::itr	file:
+itr	problems/leetcode/merge-intervals.cc	/^      itr(int s, int e){$/;"	f	struct:Solution::itr	file:
+itr	problems/leetcode/merge-intervals.cc	/^    struct itr {$/;"	s	class:Solution	file:
+j	problems/leetcode/anagramsinastring.py	/^j = defaultdict(int)$/;"	v
+k	gen_paren.cc	/^    vector<string> k(int j, int n) {$/;"	f	class:Solution	typeref:typename:vector<string>	file:
+k	problems/dmoj/tle/tle16c5p2.cc	/^long n, k;$/;"	v	typeref:typename:long
+kmp	codebook/string/kmp.cc	/^int kmp(){$/;"	f	typeref:typename:int
+l	problems/leetcode/anagramsinastring.py	/^l = defaultdict(int)$/;"	v
+lastIndex	problems/dmoj/other/Mobitel/mobitel.c	/^int lastIndex = 0;$/;"	v	typeref:typename:int
+lastIndex	problems/dmoj/other/Mobitel/mobitel.cpp	/^int lastIndex = 0;$/;"	v	typeref:typename:int
+lastNode	problems/ctci/ch3/stack.cpp	/^    StackNode* lastNode; $/;"	m	class:Stack	typeref:typename:StackNode *	file:
+lchild	codebook/datastructures/avl_tree.cc	/^  ll lchild;$/;"	m	struct:Node	typeref:typename:ll	file:
+lchild	problems/cco/cco_prep1_p3.cc	/^  ll lchild;$/;"	m	struct:Node	typeref:typename:ll	file:
+lcm	codebook/math/gaussian_elim.cc	/^ll lcm(ll a, ll b){$/;"	f	typeref:typename:ll
+left	codebook/datastructures/avl_tree.cc	/^  Node<T> *left; $/;"	m	struct:Node	typeref:typename:Node<T> *	file:
+left	codebook/datastructures/binary_search_tree.cc	/^  struct Node * left; $/;"	m	struct:Node	typeref:struct:Node *	file:
+left	problems/cco/cco_prep1_p3.cc	/^  Node<T> *left; $/;"	m	struct:Node	typeref:typename:Node<T> *	file:
+leftrightrotate	codebook/datastructures/avl_tree.cc	/^Node<T> * leftrightrotate(Node<T>* c){$/;"	f	typeref:typename:Node<T> *
+leftrightrotate	problems/cco/cco_prep1_p3.cc	/^Node<T> * leftrightrotate(Node<T>* c){$/;"	f	typeref:typename:Node<T> *
+leftrotate	codebook/datastructures/avl_tree.cc	/^Node<T> * leftrotate(Node<T>* c){$/;"	f	typeref:typename:Node<T> *
+leftrotate	problems/cco/cco_prep1_p3.cc	/^Node<T> * leftrotate(Node<T>* c){$/;"	f	typeref:typename:Node<T> *
+length	problems/dmoj/uncategorized/3drotate.cc	/^double Vec3::length() const {$/;"	f	class:Vec3	typeref:typename:double
+lengthOfLIS	problems/leetcode/longest-inc.cc	/^    int lengthOfLIS(vector<int>& nums) {$/;"	f	class:Solution	typeref:typename:int	file:
+lim	problems/dmoj/uncategorized/badpaths.cc	/^#define lim /;"	d	file:
+lim	problems/euler/p25.cc	/^const int lim = 10000000;$/;"	v	typeref:typename:const int
+lim	problems/leetcode/maxprod.cc	/^    const int lim  = 1e8;$/;"	m	class:Solution	typeref:typename:const int	file:
+list	problems/hackerrank/python/list.py	/^list = [] $/;"	v
+ll	codebook/datastructures/avl_tree.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	codebook/datastructures/heap.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	codebook/math/gaussian_elim.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	codebook/math/general.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	contests/adininitum18/countsolns.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	contests/adininitum18/divexplore.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	contests/codejam/misc/oversized_pancakes/oversizedpancakes.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	contests/codejam/misc/stalls/stalls.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	contests/codejam/misc/tidynumbers/tidy.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	contests/tle16/p1.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	contests/tle16/p2.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	contests/tle16/p3.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	contests/tle16/p4.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	contests/weekofcode33/transform-to-palindrome.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	problems/ccc/ccc05s5.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	problems/ccc/ccc_08_s5.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	problems/ccc/ccc_10_j4.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	problems/ccc/ccc_13_j4.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	problems/ccc/ccc_13_s3.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	problems/ccc/ccc_15_s3.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	problems/ccc/ccc_15_s5.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	problems/ccc/ccc_16_s4.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	problems/ccc/ccc_17_s3.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	problems/cco/cco_10_p3.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	problems/cco/cco_99_p2.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	problems/cco/cco_prep1_p3.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	problems/dmoj/RGCG/p2.cc	/^typedef unsigned long long ll;$/;"	t	typeref:typename:unsigned long long	file:
+ll	problems/dmoj/RGCG/p3.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	problems/dmoj/ahardergame.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	problems/dmoj/coci/coci_14_c7_p2.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	problems/dmoj/dmopc/dmopc16/p3.cpp	/^typedef long long ll; $/;"	t	typeref:typename:long long	file:
+ll	problems/dmoj/dmopc/dmopc_14_c4p4.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	problems/dmoj/gcc/gcc_16_p1.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	problems/dmoj/other/binary_index_tree_test.cc	/^typedef long long int ll;$/;"	t	typeref:typename:long long int	file:
+ll	problems/dmoj/tle/tle16c5p2.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	problems/dmoj/tle/tle16c7p4.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	problems/dmoj/uncategorized/3drotate.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	problems/dmoj/uncategorized/a_plus_b.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	problems/dmoj/uncategorized/badpaths.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	problems/dmoj/uncategorized/det.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	problems/dmoj/uncategorized/inaho.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	problems/dmoj/uncategorized/next_prime_hard.cc	/^typedef unsigned long long ll;$/;"	t	typeref:typename:unsigned long long	file:
+ll	problems/dmoj/uncategorized/pickit.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	problems/dmoj/uncategorized/primefact.cc	/^typedef unsigned long long ll;$/;"	t	typeref:typename:unsigned long long	file:
+ll	problems/euler/p23.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	problems/euler/p24.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	problems/euler/p25.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	problems/hackerrank/datastructures/arrays/arrayds.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	problems/hackerrank/datastructures/heap/qheap.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	problems/ioi/ioi13p4.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	problems/leetcode/anagramsinastring.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	problems/leetcode/licenseplate.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	problems/leetcode/longest_palindromic_substring.cc	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+longestIncreasingPath	problems/leetcode/increseing-path.cc	/^    int longestIncreasingPath(vector<vector<int>>& matrix) {$/;"	f	class:Solution	typeref:typename:int	file:
+longestPalindrome	problems/leetcode/longest_palin.cpp	/^    int longestPalindrome(string s) {$/;"	f	class:Solution	typeref:typename:int	file:
+longestPalindrome	problems/leetcode/longest_palindromic_substring.cc	/^    string longestPalindrome(string s) {$/;"	f	class:Solution	typeref:typename:string	file:
+lookup	codebook/datastructures/avl_tree.cc	/^ll lookup(Node<T> * root, T val){$/;"	f	typeref:typename:ll
+lookup	problems/cco/cco_prep1_p3.cc	/^ll lookup(Node<T> * root, T val){$/;"	f	typeref:typename:ll
+lowestCommonAncestor	problems/leetcode/lowestCommonAncestor.cc	/^    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {$/;"	f	class:Solution	typeref:typename:TreeNode *	file:
+lowestTriangle	contests/adininitum18/minheightri.cc	/^int lowestTriangle(int base, int area){$/;"	f	typeref:typename:int
+m	problems/dmoj/dmopc/dmopc16/p3.cpp	/^    ll m;$/;"	m	struct:__anond7ebcdb00108	typeref:typename:ll	file:
+main	codebook/datastructures/avl_tree.cc	/^int main(){$/;"	f	typeref:typename:int
+main	codebook/datastructures/binary_index_tree.cc	/^int main()$/;"	f	typeref:typename:int
+main	codebook/datastructures/binary_search_tree.cc	/^int main()$/;"	f	typeref:typename:int
+main	codebook/datastructures/disjoint_set.cc	/^int main(){$/;"	f	typeref:typename:int
+main	codebook/datastructures/heap.cc	/^int main(){$/;"	f	typeref:typename:int
+main	codebook/graph/astar.cc	/^int main() {$/;"	f	typeref:typename:int
+main	codebook/graph/dfs.cc	/^int main()$/;"	f	typeref:typename:int
+main	codebook/graph/djkstra.cpp	/^int main(){$/;"	f	typeref:typename:int
+main	codebook/math/gaussian_elim.cc	/^int main()$/;"	f	typeref:typename:int
+main	codebook/math/general.cc	/^int main()$/;"	f	typeref:typename:int
+main	codebook/sorts/mergesort.c	/^int main ()$/;"	f	typeref:typename:int
+main	codebook/sorts/quicksort.c	/^int main () $/;"	f	typeref:typename:int
+main	codebook/sorts/selection_sort.cpp	/^int main(){$/;"	f	typeref:typename:int
+main	contests/adininitum18/countsolns.cc	/^int main() {$/;"	f	typeref:typename:int
+main	contests/adininitum18/divexplore.cc	/^int main()$/;"	f	typeref:typename:int
+main	contests/adininitum18/minheightri.cc	/^int main() {$/;"	f	typeref:typename:int
+main	contests/adininitum18/pythagoreantriple.cc	/^int main() {$/;"	f	typeref:typename:int
+main	contests/adininitum18/towerheight.cc	/^int main() {$/;"	f	typeref:typename:int
+main	contests/codejam/misc/oversized_pancakes/oversizedpancakes.cc	/^int main()$/;"	f	typeref:typename:int
+main	contests/codejam/misc/stalls/stalls.cc	/^int main()$/;"	f	typeref:typename:int
+main	contests/codejam/misc/tidynumbers/tidy.cc	/^int main()$/;"	f	typeref:typename:int
+main	contests/hackercup/qual/p1/p1.cpp	/^int main()$/;"	f	typeref:typename:int
+main	contests/hackercup/qual/p2/p2.cpp	/^int main()$/;"	f	typeref:typename:int
+main	contests/hackercup/qual/p3/p3.cpp	/^int main()$/;"	f	typeref:typename:int
+main	contests/hackercup/round1/p1/pie.cc	/^int main()$/;"	f	typeref:typename:int
+main	contests/hackercup/round1/p2/fighting_zombies.cc	/^int main()$/;"	f	typeref:typename:int
+main	contests/hackercup/round1/p3/manic.cc	/^int main()$/;"	f	typeref:typename:int
+main	contests/hackercup/round1/p4/umbrella.cc	/^int main()$/;"	f	typeref:typename:int
+main	contests/hackercup/round2/p1/p1.cc	/^int main()$/;"	f	typeref:typename:int
+main	contests/hackercup/round2/p2/p2.cc	/^int main()$/;"	f	typeref:typename:int
+main	contests/hackercup/round2/p3/p3.cc	/^int main()$/;"	f	typeref:typename:int
+main	contests/hackercup/round2/p4/p4.cc	/^int main()$/;"	f	typeref:typename:int
+main	contests/hackercup/round2/template.cc	/^int main()$/;"	f	typeref:typename:int
+main	contests/tle16/p1.cc	/^int main()$/;"	f	typeref:typename:int
+main	contests/tle16/p2.cc	/^int main()$/;"	f	typeref:typename:int
+main	contests/tle16/p3.cc	/^int main()$/;"	f	typeref:typename:int
+main	contests/weekofcode33/transform-to-palindrome.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/acm/quickbrownfox.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/ccc/ccc05s5.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/ccc/ccc_00_j1.cc	/^int main(){$/;"	f	typeref:typename:int
+main	problems/ccc/ccc_00_s2.cc	/^int main(void){$/;"	f	typeref:typename:int
+main	problems/ccc/ccc_00_s4.cc	/^int main(void){$/;"	f	typeref:typename:int
+main	problems/ccc/ccc_01_j1.c	/^int main(){$/;"	f	typeref:typename:int
+main	problems/ccc/ccc_01_j2.c	/^int main(){$/;"	f	typeref:typename:int
+main	problems/ccc/ccc_01_s1.c	/^int main(void){$/;"	f	typeref:typename:int
+main	problems/ccc/ccc_01_s2.c	/^int main(void){$/;"	f	typeref:typename:int
+main	problems/ccc/ccc_01_s3.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/ccc/ccc_02_s1.c	/^int main(void){$/;"	f	typeref:typename:int
+main	problems/ccc/ccc_02_s2.c	/^int main(void){$/;"	f	typeref:typename:int
+main	problems/ccc/ccc_02_s4.cc	/^int main(){$/;"	f	typeref:typename:int
+main	problems/ccc/ccc_03_j2.cc	/^int main(){$/;"	f	typeref:typename:int
+main	problems/ccc/ccc_03_j5.cc	/^int main(){$/;"	f	typeref:typename:int
+main	problems/ccc/ccc_03_s1.c	/^int main(void){$/;"	f	typeref:typename:int
+main	problems/ccc/ccc_03_s2..cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/ccc/ccc_03_s3.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/ccc/ccc_03_s4.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/ccc/ccc_03_s5.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/ccc/ccc_05_j5.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/ccc/ccc_05_s5.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/ccc/ccc_06_s5.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/ccc/ccc_07_s1.c	/^int main(){$/;"	f	typeref:typename:int
+main	problems/ccc/ccc_07_s4.cc	/^int main(){$/;"	f	typeref:typename:int
+main	problems/ccc/ccc_07_s5.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/ccc/ccc_08_s3.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/ccc/ccc_08_s5.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/ccc/ccc_10_j4.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/ccc/ccc_11_s2.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/ccc/ccc_12_s5.cc	/^int main(){$/;"	f	typeref:typename:int
+main	problems/ccc/ccc_13_j4.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/ccc/ccc_13_s3.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/ccc/ccc_13_s4.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/ccc/ccc_13_s5.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/ccc/ccc_15_j5.cc	/^int main () $/;"	f	typeref:typename:int
+main	problems/ccc/ccc_15_s3.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/ccc/ccc_15_s5.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/ccc/ccc_16_s3.cc	/^int main(){$/;"	f	typeref:typename:int
+main	problems/ccc/ccc_16_s4.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/ccc/ccc_17_s3.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/cco/cco10p5.c	/^int main () $/;"	f	typeref:typename:int
+main	problems/cco/cco10p5.cc	/^int main () $/;"	f	typeref:typename:int
+main	problems/cco/cco_10_p3.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/cco/cco_99_p2.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/cco/cco_prep1_p3.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/ctci/ch3/stack.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/ctci/cpp/chp1/q1/isUnique.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/ctci/cpp/chp1/q2/check_perm.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/dmoj/RGCG/p1.cc	/^int main(){$/;"	f	typeref:typename:int
+main	problems/dmoj/RGCG/p2.cc	/^int main(){$/;"	f	typeref:typename:int
+main	problems/dmoj/RGCG/p3.cc	/^int main(){$/;"	f	typeref:typename:int
+main	problems/dmoj/RGCG/p4.cc	/^int main(){$/;"	f	typeref:typename:int
+main	problems/dmoj/RGCG/p5.cc	/^int main(){$/;"	f	typeref:typename:int
+main	problems/dmoj/RGCG/template.cc	/^int main(){$/;"	f	typeref:typename:int
+main	problems/dmoj/ahardergame.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/dmoj/classics/bst.cc	/^int main()$/;"	f	typeref:class:BST int
+main	problems/dmoj/classics/shortest_paths.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/dmoj/coci/coci15c1p3.cc	/^int main(){$/;"	f	typeref:typename:int
+main	problems/dmoj/coci/coci_14_c7_p2.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/dmoj/dmopc/dmopc16/p1.cpp	/^int main(void){$/;"	f	typeref:typename:int
+main	problems/dmoj/dmopc/dmopc16/p2.cpp	/^int main(void){$/;"	f	typeref:typename:int
+main	problems/dmoj/dmopc/dmopc16/p3.cpp	/^int main(void){$/;"	f	typeref:typename:int
+main	problems/dmoj/dmopc/dmopc16/p4.cpp	/^int main(void){$/;"	f	typeref:typename:int
+main	problems/dmoj/dmopc/dmopc16/p5.cpp	/^int main(void){$/;"	f	typeref:typename:int
+main	problems/dmoj/dmopc/dmopc16/template.cpp	/^int main(void){$/;"	f	typeref:typename:int
+main	problems/dmoj/dmopc/dmopc16c3p5.cc	/^int main(){$/;"	f	typeref:typename:int
+main	problems/dmoj/dmopc/dmopc_14_c4p4.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/dmoj/dmopc/dmopc_16_p5.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/dmoj/gcc/gcc_16_p1.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/dmoj/hackercup/winning_at_sports.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/dmoj/other/16bitsw/sixteenbit.c	/^int main(void){$/;"	f	typeref:typename:int
+main	problems/dmoj/other/3drotate/rotate.c	/^int main(void){$/;"	f	typeref:typename:int
+main	problems/dmoj/other/Aplusb/main.c	/^int main(void){$/;"	f	typeref:typename:int
+main	problems/dmoj/other/Mobitel/mobitel.c	/^int main(){$/;"	f	typeref:typename:int
+main	problems/dmoj/other/Mobitel/mobitel.cpp	/^int main(){$/;"	f	typeref:typename:int
+main	problems/dmoj/other/a20/a20.c	/^int main(void){$/;"	f	typeref:typename:int
+main	problems/dmoj/other/a_plus_b_hard/a_plus_b_hard.c	/^int main()$/;"	f	typeref:typename:int
+main	problems/dmoj/other/anoisyclass/main.cpp	/^int main(void){$/;"	f	typeref:typename:int
+main	problems/dmoj/other/anoisyclass/noisy.c	/^int main(void){$/;"	f	typeref:typename:int
+main	problems/dmoj/other/binary_index_tree_test.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/dmoj/other/mirror.cpp	/^int main(){$/;"	f	typeref:typename:int
+main	problems/dmoj/other/permutation.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/dmoj/other/xor.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/dmoj/tle/tle16c5p2.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/dmoj/tle/tle16c7p4.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/dmoj/uncategorized/3drotate.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/dmoj/uncategorized/a_plus_b.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/dmoj/uncategorized/badpaths.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/dmoj/uncategorized/det.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/dmoj/uncategorized/next_prime_hard.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/dmoj/uncategorized/pickit.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/dmoj/uncategorized/primefact.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/euler/p23.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/euler/p24.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/euler/p25.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/hackerrank/cpp/stl/deque.cpp	/^int main(){$/;"	f	typeref:typename:int
+main	problems/hackerrank/cpp/stl/lower-bound.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/hackerrank/cpp/stl/map.cpp	/^int main() {$/;"	f	typeref:typename:int
+main	problems/hackerrank/cpp/stl/print-pretty.cpp	/^int main() {$/;"	f	typeref:typename:int
+main	problems/hackerrank/cpp/stl/set.cpp	/^int main() {$/;"	f	typeref:typename:int
+main	problems/hackerrank/cpp/stl/strings.cpp	/^int main(){$/;"	f	typeref:typename:int
+main	problems/hackerrank/cpp/stl/stringstream.cpp	/^int main(){$/;"	f	typeref:typename:int
+main	problems/hackerrank/cpp/stl/vector-erase.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/hackerrank/cpp/stl/vector.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/hackerrank/datastructures/arrays/arrayds.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/hackerrank/datastructures/heap/qheap.cc	/^int main() {$/;"	f	typeref:typename:int
+main	problems/hackerrank/graph/journey_to_the_moon.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/ioi/ioi01p3.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/leetcode/anagramsinastring.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/leetcode/findkclosestelements.cc	/^int main(){$/;"	f	typeref:typename:int
+main	problems/leetcode/get_sum.cpp	/^int main(){$/;"	f	typeref:typename:int
+main	problems/leetcode/hamming_distance.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/leetcode/increseing-path.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/leetcode/licenseplate.cc	/^int main(){$/;"	f	typeref:typename:int
+main	problems/leetcode/longest-inc.cc	/^int main(){$/;"	f	typeref:typename:int
+main	problems/leetcode/longest_palindromic_substring.cc	/^int main() {$/;"	f	typeref:typename:int
+main	problems/leetcode/path.cc	/^int main()$/;"	f	typeref:typename:int
+main	problems/leetcode/powxn.cc	/^int main(){$/;"	f	typeref:typename:int
+main	problems/leetcode/prodarray.cc	/^int main() {$/;"	f	typeref:typename:int
+main	problems/leetcode/range_sum_query.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/leetcode/sort-list.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/leetcode/string_permute.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/leetcode/trap-rain.cc	/^int main(){$/;"	f	typeref:typename:int
+main	problems/leetcode/word-ladder-II.cc	/^int main()$/;"	f	typeref:typename:int
+majorityElement	problems/leetcode/majority.cpp	/^    int majorityElement(vector<int>& nums) {$/;"	f	class:Solution	typeref:typename:int	file:
+make_friend	problems/cco/cco_prep1_p3.cc	/^void make_friend(int A, int B){$/;"	f	typeref:typename:void
+make_node	codebook/datastructures/binary_search_tree.cc	/^Node* BST::make_node(double val)$/;"	f	class:BST	typeref:typename:Node *
+mapping	problems/dmoj/other/Mobitel/mobitel.c	/^int mapping[10]; $/;"	v	typeref:typename:int[10]
+mapping	problems/dmoj/other/Mobitel/mobitel.cpp	/^int mapping[10]; $/;"	v	typeref:typename:int[10]
+matrix	problems/dmoj/uncategorized/det.cc	/^Mat matrix; $/;"	v	typeref:typename:Mat
+matrixStringtoMatr	problems/dmoj/uncategorized/det.js	/^function matrixStringtoMatr(eqnStrArr){$/;"	f
+max	problems/dmoj/other/a_plus_b_hard/a_plus_b_hard.c	/^#define max(/;"	d	file:
+maxDepth	problems/leetcode/max_depth.cpp	/^    int maxDepth(TreeNode* root) {$/;"	f	class:Solution	typeref:typename:int	file:
+maxDepth	problems/leetcode/maxdepth.cc	/^    int maxDepth(TreeNode* root) {$/;"	f	class:Solution	typeref:typename:int	file:
+maxProduct	problems/leetcode/maxprod.cc	/^    int maxProduct(vector<int>& nums) {$/;"	f	class:Solution	typeref:typename:int	file:
+maxProfit	problems/leetcode/best_buy.cpp	/^    int maxProfit(vector<int>& prices) {$/;"	f	class:Solution	typeref:typename:int	file:
+maxProfit	problems/leetcode/bestbuyIII.cc	/^    int maxProfit(int k, vector<int>& prices) {$/;"	f	class:Solution	typeref:typename:int	file:
+maxProfit	problems/leetcode/bestbuyIII.cc	/^    int maxProfit(vector<int>& prices, int cur, int sold, int trans)$/;"	f	class:Solution	typeref:typename:int	file:
+maxProfit	problems/leetcode/besttimetobuy.cc	/^    int maxProfit(vector<int>& prices) {$/;"	f	class:Solution	typeref:typename:int	file:
+maxProfit	problems/leetcode/buysell3.cc	/^    int maxProfit(vector<int>& prices) {$/;"	f	class:Solution	typeref:typename:int	file:
+maxes	problems/leetcode/buysell3.cc	/^  vector<int> &maxes;$/;"	m	class:Solution	typeref:typename:vector<int> &	file:
+memo	problems/dmoj/dmopc/dmopc16c3p5.cc	/^int memo[N][K]; $/;"	v	typeref:typename:int[][]
+merge	codebook/datastructures/avl_tree.cc	/^Node<T> *merge(Node<T>*a, Node<T>*b){$/;"	f	typeref:typename:Node<T> *
+merge	problems/cco/cco_prep1_p3.cc	/^Node<T> *merge(Node<T>*a, Node<T>*b){$/;"	f	typeref:typename:Node<T> *
+merge	problems/leetcode/merge-intervals.cc	/^    itr merge(itr const& a, itr const& b){$/;"	f	class:Solution	typeref:typename:itr	file:
+merge	problems/leetcode/merge-intervals.cc	/^    vector<Interval> merge(vector<Interval>& intervals) {$/;"	f	class:Solution	typeref:typename:vector<Interval>	file:
+merge	problems/leetcode/sort-list.cpp	/^    ListNode * merge(ListNode *a, int an, ListNode* b,int bn){$/;"	f	class:Solution	typeref:typename:ListNode *	file:
+mergeInter	problems/dmoj/gcc/gcc_16_p1.cc	/^void mergeInter(list<pair<int,int> > &a){$/;"	f	typeref:typename:void
+mergeTrees	problems/leetcode/mergebin.cc	/^    TreeNode* mergeTrees(TreeNode* t1, TreeNode* t2) {$/;"	f	class:Solution	typeref:typename:TreeNode *	file:
+mergesort	codebook/sorts/mergesort.c	/^void mergesort (int * a, int * tmp, int n)$/;"	f	typeref:typename:void
+min3	problems/dmoj/dmopc/dmopc16/p4.cpp	/^double min3(double a, double b, double c){$/;"	f	typeref:typename:double
+minMoves	problems/leetcode/min_arr_moves.cpp	/^    int minMoves(vector<int>& nums) {$/;"	f	class:Solution	typeref:typename:int	file:
+min_heapify	codebook/datastructures/binary_heap.cpp	/^void min_heapify(vector<int> heap)$/;"	f	typeref:typename:void
+mod_div	codebook/math/general.cc	/^ll mod_div(ll a, ll b, ll m){$/;"	f	typeref:typename:ll
+mod_div	problems/dmoj/uncategorized/badpaths.cc	/^ll mod_div(ll a, ll b, ll m){$/;"	f	typeref:typename:ll
+mod_div	problems/dmoj/uncategorized/det.cc	/^inline ll mod_div(ll a, ll b, ll m)$/;"	f	typeref:typename:ll
+mod_exp	codebook/math/general.cc	/^ll mod_exp(ll a, ll b, ll m) {$/;"	f	typeref:typename:ll
+mod_exp	contests/adininitum18/towerheight.cc	/^inline ull mod_exp(ull a, ull b, ull m){$/;"	f	typeref:typename:ull
+mod_exp	problems/dmoj/uncategorized/badpaths.cc	/^ll mod_exp(ll a, ll b, ll m) {$/;"	f	typeref:typename:ll
+mod_exp	problems/dmoj/uncategorized/det.cc	/^inline ll mod_exp(ll a, ll b, ll m){$/;"	f	typeref:typename:ll
+mod_exp	problems/dmoj/uncategorized/next_prime_hard.cc	/^ll mod_exp(ll a, ll b, ll m){$/;"	f	typeref:typename:ll
+mod_inv	codebook/math/general.cc	/^ll mod_inv(ll a, ll m){$/;"	f	typeref:typename:ll
+mod_inv	problems/dmoj/uncategorized/badpaths.cc	/^ll mod_inv(ll a, ll m){$/;"	f	typeref:typename:ll
+moveZeroes	problems/leetcode/move-zeroes.cpp	/^    void moveZeroes(vector<int>& nums) {$/;"	f	class:Solution	typeref:typename:void	file:
+moves	contests/tle16/p4.cc	/^vector<int> moves;$/;"	v	typeref:typename:vector<int>
+mp	problems/cco/cco_10_p3.cc	/^int mp[ 1000005];$/;"	v	typeref:typename:int[1000005]
+mp	problems/dmoj/tle/tle16c7p4.cc	/^map<long,long> mp;$/;"	v	typeref:typename:map<long,long>
+mpr	problems/cco/cco_10_p3.cc	/^int mpr[1000005];$/;"	v	typeref:typename:int[1000005]
+mtl	problems/ccc/ccc_03_j5.cc	/^int *mtl;$/;"	v	typeref:typename:int *
+mul_mod	contests/adininitum18/towerheight.cc	/^inline ull mul_mod(ull a, ull e, ull m){$/;"	f	typeref:typename:ull
+mul_mod	problems/dmoj/uncategorized/det.cc	/^inline ll mul_mod(ll a, ll e, ll m){$/;"	f	typeref:typename:ll
+mul_mod	problems/dmoj/uncategorized/next_prime_hard.cc	/^ll mul_mod(ll a, ll e, ll m){$/;"	f	typeref:typename:ll
+myPow	problems/leetcode/powxn.cc	/^    double myPow(double x, long n) {$/;"	f	class:Solution	typeref:typename:double	file:
+n	problems/ccc/ccc_13_s5.cc	/^int n; $/;"	v	typeref:typename:int
+n	problems/dmoj/tle/tle16c5p2.cc	/^long n, k;$/;"	v	typeref:typename:long
+n	problems/dmoj/uncategorized/nim.py	/^n = N$/;"	v
+n	problems/hackerrank/python/if.py	/^n = int(input())$/;"	v
+n	problems/hackerrank/python/list.py	/^n = int(input()) $/;"	v
+names	problems/ccc/ccc_02_s4.cc	/^string *names; $/;"	v	typeref:typename:string *
+next	codebook/datastructures/linked_list.cpp	/^  Node * next;$/;"	m	struct:Node	typeref:typename:Node *	file:
+next	problems/ctci/ch3/stack.cpp	/^  StackNode *next;$/;"	m	struct:StackNode	typeref:typename:StackNode *	file:
+next	problems/leetcode/sort-list.cpp	/^  ListNode *next;$/;"	m	struct:ListNode	typeref:typename:ListNode *	file:
+nextGreaterElement	problems/leetcode/next-greater-ele-iii.cc	/^    long nextGreaterElement(long n) {$/;"	f	class:Solution	typeref:typename:long	file:
+nextMove	problems/ccc/ccc_01_s2.c	/^Pair nextMove(int last, int row, int col, int board[], int n){$/;"	f	typeref:typename:Pair
+normalize	problems/dmoj/uncategorized/3drotate.cc	/^Vec3 Vec3::normalize() const {$/;"	f	class:Vec3	typeref:typename:Vec3
+numDig	problems/euler/p25.cc	/^int numDig(ll in){$/;"	f	typeref:typename:int
+numSquares	problems/leetcode/perfect_squares.cpp	/^    int numSquares(int n) {$/;"	f	class:Solution	typeref:typename:int	file:
+numberOfArithmeticSlices	problems/leetcode/arithmetic-slices.cc	/^    int numberOfArithmeticSlices(vector<int>& A) {$/;"	f	class:Solution	typeref:typename:int	file:
+offset	contests/hackercup/qual/p3/p3.cpp	/^  int offset;$/;"	m	struct:Spell	typeref:typename:int	file:
+operator !=	problems/dmoj/uncategorized/3drotate.cc	/^bool Vec3::operator != (const Vec3 &v) const {$/;"	f	class:Vec3	typeref:typename:bool
+operator ()	contests/tle16/p4.cc	/^  size_t operator()(const std::vector<int>& v) const {$/;"	f	struct:VectorHash	typeref:typename:size_t	file:
+operator *	problems/dmoj/uncategorized/3drotate.cc	/^Vec3 Vec3::operator * (const double &f) const {$/;"	f	class:Vec3	typeref:typename:Vec3
+operator +	problems/dmoj/uncategorized/3drotate.cc	/^Vec3 Vec3::operator + (const Vec3 &v) const {$/;"	f	class:Vec3	typeref:typename:Vec3
+operator -	problems/dmoj/uncategorized/3drotate.cc	/^Vec3 Vec3::operator - () const {$/;"	f	class:Vec3	typeref:typename:Vec3
+operator -	problems/dmoj/uncategorized/3drotate.cc	/^Vec3 Vec3::operator - (const Vec3 &v) const {$/;"	f	class:Vec3	typeref:typename:Vec3
+operator /	problems/dmoj/uncategorized/3drotate.cc	/^Vec3 Vec3::operator \/ (const double &f) const {$/;"	f	class:Vec3	typeref:typename:Vec3
+operator <	problems/ccc/ccc_03_s4.cc	/^   bool operator< (const Sub &j) { $/;"	f	struct:Sub	typeref:typename:bool	file:
+operator <	problems/leetcode/merge-intervals.cc	/^      bool operator< (itr const& b){$/;"	f	struct:Solution::itr	typeref:typename:bool	file:
+operator <<	problems/dmoj/uncategorized/3drotate.cc	/^std::ostream& operator << (std::ostream &os, const Vec3 &v) {$/;"	f	typeref:typename:std::ostream &
+operator ==	problems/dmoj/uncategorized/3drotate.cc	/^bool Vec3::operator == (const Vec3 &v) const {$/;"	f	class:Vec3	typeref:typename:bool
+origin	problems/ccc/ccc_06_s5.cc	/^bool origin(vector<vector<int>> board)$/;"	f	typeref:typename:bool
+other	problems/dmoj/tle/tle16c7p4.cc	/^int other(long n){$/;"	f	typeref:typename:int
+p	problems/leetcode/buysell3.cc	/^    int p = 0; $/;"	m	class:Solution	typeref:typename:int	file:
+pair	problems/dmoj/dmopc/dmopc16/p5.cpp	/^} pair; $/;"	t	typeref:struct:__anond80ffeb20108	file:
+parseInts	problems/hackerrank/cpp/stl/stringstream.cpp	/^vector<int> parseInts(string str){$/;"	f	typeref:typename:vector<int>
+pb	codebook/math/gaussian_elim.cc	/^#define pb /;"	d	file:
+pb	codebook/math/general.cc	/^#define pb /;"	d	file:
+pb	contests/adininitum18/divexplore.cc	/^#define pb /;"	d	file:
+pb	contests/codejam/misc/oversized_pancakes/oversizedpancakes.cc	/^#define pb /;"	d	file:
+pb	contests/codejam/misc/stalls/stalls.cc	/^#define pb /;"	d	file:
+pb	contests/codejam/misc/tidynumbers/tidy.cc	/^#define pb /;"	d	file:
+pb	contests/tle16/p1.cc	/^#define pb /;"	d	file:
+pb	contests/tle16/p2.cc	/^#define pb /;"	d	file:
+pb	contests/tle16/p3.cc	/^#define pb /;"	d	file:
+pb	contests/tle16/p4.cc	/^#define pb /;"	d	file:
+pb	problems/ccc/ccc05s5.cc	/^#define pb /;"	d	file:
+pb	problems/ccc/ccc_08_s5.cc	/^#define pb /;"	d	file:
+pb	problems/ccc/ccc_10_j4.cc	/^#define pb /;"	d	file:
+pb	problems/ccc/ccc_15_s3.cc	/^#define pb /;"	d	file:
+pb	problems/ccc/ccc_15_s5.cc	/^#define pb /;"	d	file:
+pb	problems/ccc/ccc_16_s4.cc	/^#define pb /;"	d	file:
+pb	problems/ccc/ccc_17_s3.cc	/^#define pb /;"	d	file:
+pb	problems/cco/cco_99_p2.cc	/^#define pb /;"	d	file:
+pb	problems/cco/cco_prep1_p3.cc	/^#define pb /;"	d	file:
+pb	problems/dmoj/coci/coci_14_c7_p2.cc	/^#define pb /;"	d	file:
+pb	problems/dmoj/dmopc/dmopc_14_c4p4.cc	/^#define pb /;"	d	file:
+pb	problems/dmoj/tle/tle16c7p4.cc	/^#define pb /;"	d	file:
+pb	problems/dmoj/uncategorized/3drotate.cc	/^#define pb /;"	d	file:
+pb	problems/dmoj/uncategorized/a_plus_b.cc	/^#define pb /;"	d	file:
+pb	problems/dmoj/uncategorized/det.cc	/^#define pb /;"	d	file:
+pb	problems/dmoj/uncategorized/inaho.cc	/^#define pb /;"	d	file:
+pb	problems/dmoj/uncategorized/next_prime_hard.cc	/^#define pb /;"	d	file:
+pb	problems/dmoj/uncategorized/pickit.cc	/^#define pb /;"	d	file:
+pb	problems/dmoj/uncategorized/primefact.cc	/^#define pb /;"	d	file:
+pb	problems/hackerrank/datastructures/arrays/arrayds.cc	/^#define pb /;"	d	file:
+pb	problems/ioi/ioi13p4.cc	/^#define pb /;"	d	file:
+peek	problems/ctci/ch3/stack.cpp	/^int Stack::peek()$/;"	f	class:Stack	typeref:typename:int
+perm	problems/dmoj/uncategorized/badpaths.cc	/^ll perm(ll n, ll k){$/;"	f	typeref:typename:ll
+permute	problems/dmoj/other/permutation.cc	/^void permute(string base, string prefix)$/;"	f	typeref:typename:void
+permute	problems/leetcode/binary_watch.cpp	/^    vector<string> permute (int prefix, int n) $/;"	f	class:Solution	typeref:typename:vector<string>	file:
+permute	problems/leetcode/permutations.cc	/^    vector<vector<int>> permute(vector<int>& nums) {$/;"	f	class:Solution	typeref:typename:vector<vector<int>>	file:
+permute	problems/leetcode/string_permute.cpp	/^void permute(string prefix, string s)$/;"	f	typeref:typename:void
+pho	problems/ccc/ccc_16_s3.cc	/^bool pho[100001]; $/;"	v	typeref:typename:bool[100001]
+pies	problems/ccc/ccc_15_s5.cc	/^int pies[3001]; $/;"	v	typeref:typename:int[3001]
+planets	problems/cco/cco10p5.c	/^Planet planets[1001]; $/;"	v	typeref:typename:Planet[1001]
+planets	problems/cco/cco10p5.cc	/^Planet planets[1001]; $/;"	v	typeref:typename:Planet[1001]
+points	codebook/graph/astar.cc	/^vector<Point> points;$/;"	v	typeref:typename:vector<Point>
+polyMult	problems/dmoj/RGCG/p3.cc	/^void polyMult(ll  a[], int an, ll  b[], int bn, ll  out[], int on){$/;"	f	typeref:typename:void
+pop	problems/ctci/ch3/stack.cpp	/^int Stack::pop()$/;"	f	class:Stack	typeref:typename:int
+pop	problems/leetcode/stackusingqueues.cc	/^    int pop() { $/;"	f	class:MyStack	typeref:typename:int	file:
+pos	problems/dmoj/uncategorized/3drotate.cc	/^  Vec3 pos; $/;"	m	struct:PosDir	typeref:typename:Vec3	file:
+preorder	codebook/datastructures/avl_tree.cc	/^void preorder(Node<T> *root){$/;"	f	typeref:typename:void
+preorder	problems/cco/cco_prep1_p3.cc	/^void preorder(Node<T> *root){$/;"	f	typeref:typename:void
+print	problems/dmoj/uncategorized/3drotate.cc	/^void Vec3::print() const {$/;"	f	class:Vec3	typeref:typename:void
+printArr	codebook/sorts/selection_sort.cpp	/^void printArr(int * arr, int n){$/;"	f	typeref:typename:void
+printKMax	problems/hackerrank/cpp/stl/deque.cpp	/^void printKMax(int arr[], int n, int k){$/;"	f	typeref:typename:void
+prob_prime	codebook/math/general.cc	/^bool prob_prime(ll n, int itrs){$/;"	f	typeref:typename:bool
+prob_prime	problems/dmoj/uncategorized/next_prime_hard.cc	/^bool prob_prime(ll n){$/;"	f	typeref:typename:bool
+productExceptSelf	problems/leetcode/prodarray.cc	/^    vector<int> productExceptSelf(vector<int>& nums) {$/;"	f	class:Solution	typeref:typename:vector<int>	file:
+proj	problems/dmoj/uncategorized/3drotate.cc	/^Vec3 Vec3::proj(const Vec3 &a, const Vec3 &b) {$/;"	f	class:Vec3	typeref:typename:Vec3
+push	problems/ctci/ch3/stack.cpp	/^void Stack::push(int val)$/;"	f	class:Stack	typeref:typename:void
+push	problems/leetcode/sort-list.cpp	/^ListNode *push(ListNode *last, int a){$/;"	f	typeref:typename:ListNode *
+push	problems/leetcode/stackusingqueues.cc	/^    void push(int x) {$/;"	f	class:MyStack	typeref:typename:void	file:
+pythagoreanTriple	contests/adininitum18/pythagoreantriple.cc	/^vector < ull > pythagoreanTriple(ull a){$/;"	f	typeref:typename:vector<ull>
+queue	problems/ccc/ccc_02_s4.cc	/^int *queue ; $/;"	v	typeref:typename:int *
+quicksort	codebook/sorts/quicksort.c	/^void quicksort(int * a, int n){$/;"	f	typeref:typename:void
+r	problems/cco/cco10p5.c	/^  double r;$/;"	m	struct:__anon09a70be80108	typeref:typename:double	file:
+r	problems/cco/cco10p5.cc	/^  double r;$/;"	m	struct:__anon3e88894b0108	typeref:typename:double	file:
+rchild	codebook/datastructures/avl_tree.cc	/^  ll rchild;$/;"	m	struct:Node	typeref:typename:ll	file:
+rchild	problems/cco/cco_prep1_p3.cc	/^  ll rchild;$/;"	m	struct:Node	typeref:typename:ll	file:
+readBinaryWatch	problems/leetcode/binary_watch.cpp	/^    vector<string> readBinaryWatch(int num) {$/;"	f	class:Solution	typeref:typename:vector<string>	file:
+recr	problems/ccc/ccc_16_s4.cc	/^int recr(){$/;"	f	typeref:typename:int
+recr	problems/dmoj/dmopc/dmopc16c3p5.cc	/^vector<double> recr(int n, vector<int> & a, int k){$/;"	f	typeref:typename:vector<double>
+recr	problems/dmoj/uncategorized/pickit.cc	/^int recr(int bot, int n) {$/;"	f	typeref:typename:int
+recr	problems/leetcode/increseing-path.cc	/^    int recr(int last, int x, int y, vector<vector<int>>& matrix, vector<vector<int>>& DP) {$/;"	f	class:Solution	typeref:typename:int	file:
+recr	problems/leetcode/longest-inc.cc	/^    int recr(int n, vector<int>& nums, int * DP)$/;"	f	class:Solution	typeref:typename:int	file:
+recr	problems/leetcode/word-ladder-II.cc	/^    vector< vector<string> > recr(string beginWord, string endWord, unordered_set<string> & dict/;"	f	class:Solution	typeref:typename:vector<vector<string>>	file:
+rects	contests/hackercup/round1/p2/fighting_zombies.cc	/^vector< bitset<55> > rects;$/;"	v	typeref:typename:vector<bitset<55>>
+recur	contests/hackercup/round1/p3/manic.cc	/^int recur(int n, int family, int ppl){$/;"	f	typeref:typename:int
+recur	problems/dmoj/coci/coci15c1p3.cc	/^int recur(int n) {$/;"	f	typeref:typename:int
+recur	problems/leetcode/climbing_stairs.cpp	/^    int recur(int n, int dp[]){$/;"	f	class:Solution	typeref:typename:int	file:
+recur	problems/leetcode/perfect_squares.cpp	/^    int recur(int n,vector<int> &squares,int dp[]){$/;"	f	class:Solution	typeref:typename:int	file:
+recur_clear	problems/leetcode/surrounded_regions.cpp	/^    void recur_clear(vector<vector<char>> &board, int x, int y){$/;"	f	class:Solution	typeref:typename:void	file:
+recurse	contests/tle16/p3.cc	/^int recurse(int n, int dist, vector<IPair> & neighbours, vector<bool>& visited)$/;"	f	typeref:typename:int
+recurse	contests/tle16/p4.cc	/^bool recurse(vector<int> &a, int n)$/;"	f	typeref:typename:bool
+recurse	problems/ccc/ccc_15_s5.cc	/^int recurse(int n, int l, int r)$/;"	f	typeref:typename:int
+rem	problems/dmoj/coci/coci15c1p3.cc	/^unordered_map<int,int> rem; $/;"	v	typeref:typename:unordered_map<int,int>
+removeNthFromEnd	problems/leetcode/remove-nth.py	/^    def removeNthFromEnd(self, head, n):$/;"	m	class:Solution
+reverseBetween	problems/leetcode/reverse-list-ii.cc	/^    ListNode* reverseBetween(ListNode* head, int m, int n) {$/;"	f	class:Solution	typeref:typename:ListNode *	file:
+reverseBetween	problems/leetcode/reverseLinkedList.cc	/^    ListNode* reverseBetween(ListNode* head, int m, int n) {$/;"	f	class:Solution	typeref:typename:ListNode *	file:
+reverseList	problems/leetcode/reverse_list.py	/^    def reverseList(self, head):$/;"	m	class:Solution
+reverseString	problems/leetcode/reverse_string.cpp	/^    string reverseString(string s) {$/;"	f	class:Solution	typeref:typename:string	file:
+right	codebook/datastructures/avl_tree.cc	/^  Node<T> *right;$/;"	m	struct:Node	typeref:typename:Node<T> *	file:
+right	codebook/datastructures/binary_search_tree.cc	/^  struct Node * right;$/;"	m	struct:Node	typeref:struct:Node *	file:
+right	problems/cco/cco_prep1_p3.cc	/^  Node<T> *right;$/;"	m	struct:Node	typeref:typename:Node<T> *	file:
+rightleftrotate	codebook/datastructures/avl_tree.cc	/^Node<T> * rightleftrotate(Node<T>* c){$/;"	f	typeref:typename:Node<T> *
+rightleftrotate	problems/cco/cco_prep1_p3.cc	/^Node<T> * rightleftrotate(Node<T>* c){$/;"	f	typeref:typename:Node<T> *
+rightrotate	codebook/datastructures/avl_tree.cc	/^Node<T> * rightrotate(Node<T>* c){$/;"	f	typeref:typename:Node<T> *
+rightrotate	problems/cco/cco_prep1_p3.cc	/^Node<T> * rightrotate(Node<T>* c){$/;"	f	typeref:typename:Node<T> *
+rob	problems/leetcode/rob-II.cc	/^    int rob(vector<int>& nums) {$/;"	f	class:Solution	typeref:typename:int	file:
+rob	problems/leetcode/rob.cc	/^    int rob(TreeNode* root) {$/;"	f	class:Solution	typeref:typename:int	file:
+rob_no	problems/leetcode/rob.cc	/^    int rob_no(TreeNode* root)$/;"	f	class:Solution	typeref:typename:int	file:
+rob_rec	problems/leetcode/rob-II.cc	/^    int rob_rec(int n, vector<int>& nums, int able, int first, vector<vector<vector<int> > >   &/;"	f	class:Solution	typeref:typename:int	file:
+rolls	contests/hackercup/qual/p3/p3.cpp	/^  int rolls;$/;"	m	struct:Spell	typeref:typename:int	file:
+rotate	problems/dmoj/uncategorized/3drotate.cc	/^Vec3 Vec3::rotate(const Vec3& v, const Vec3& axisOfRot, double theta){$/;"	f	class:Vec3	typeref:typename:Vec3
+rotateRight	problems/leetcode/rotate-list.cc	/^    ListNode* rotateRight(ListNode* head, int k) {$/;"	f	class:Solution	typeref:typename:ListNode *	file:
+rowMult	codebook/math/gaussian_elim.cc	/^void rowMult(Mat &matrix, int row, ll c){$/;"	f	typeref:typename:void
+rowMult	problems/dmoj/uncategorized/det.cc	/^inline void rowMult(int row, double c){$/;"	f	typeref:typename:void
+rowMult	problems/dmoj/uncategorized/det.js	/^function rowMult(matrix, row, c){$/;"	f
+rowNum	problems/ccc/ccc_01_s2.c	/^int rowNum(int layer){$/;"	f	typeref:typename:int
+s	problems/leetcode/anagramsinastring.py	/^s = Solution()$/;"	v
+scene	problems/dmoj/RGCG/p4.cc	/^int scene[1000000]; $/;"	v	typeref:typename:int[1000000]
+search	problems/leetcode/search_in_rotated_arr.cc	/^    int search(vector<int>& nums, int target) {$/;"	f	class:Solution	typeref:typename:int	file:
+selectionSort	codebook/sorts/selection_sort.cpp	/^void selectionSort(int * arr, int n){$/;"	f	typeref:typename:void
+setZeroes	problems/leetcode/set-zeroes.cc	/^    void setZeroes(vector<vector<int>>& matrix) {$/;"	f	class:Solution	typeref:typename:void	file:
+shortestCompletingWord	problems/leetcode/licenseplate.cc	/^    string shortestCompletingWord(string licensePlate, vector<string>& words) {$/;"	f	class:Solution	typeref:typename:string	file:
+side	contests/hackercup/qual/p3/p3.cpp	/^  int side; $/;"	m	struct:Spell	typeref:typename:int	file:
+sieve	codebook/math/general.cc	/^bool* sieve(int n) {$/;"	f	typeref:typename:bool *
+sieve	problems/dmoj/uncategorized/next_prime_hard.cc	/^bool sieve[5000]; $/;"	v	typeref:typename:bool[5000]
+singleNumber	problems/leetcode/single_number.cpp	/^    int singleNumber(vector<int>& nums) {$/;"	f	class:Solution	typeref:typename:int	file:
+singleNumber	problems/leetcode/single_number_three.cc	/^    vector<int> singleNumber(vector<int>& nums) {$/;"	f	class:Solution	typeref:typename:vector<int>	file:
+size	codebook/datastructures/binary_search_tree.cc	/^    int size; $/;"	m	class:BST	typeref:typename:int	file:
+size	codebook/datastructures/heap.cc	/^    int size; $/;"	m	class:Heap	typeref:typename:int	file:
+size	problems/cco/cco_prep1_p3.cc	/^  int size() {$/;"	f	struct:Node	typeref:typename:int	file:
+size	problems/ctci/ch3/stack.cpp	/^    int size; $/;"	m	class:Stack	typeref:typename:int	file:
+size	problems/hackerrank/datastructures/heap/qheap.cc	/^    int size; $/;"	m	class:Heap	typeref:typename:int	file:
+solve	contests/codejam/misc/oversized_pancakes/oversizedpancakes.cc	/^int solve(vector<bool> &arr, int k){$/;"	f	typeref:typename:int
+solve	contests/codejam/misc/tidynumbers/tidy.cc	/^void solve(vector<ull>& v) {$/;"	f	typeref:typename:void
+solve	contests/weekofcode33/transform-to-palindrome.cc	/^int solve(int s, int mov){$/;"	f	typeref:typename:int
+solve	problems/ccc/ccc_15_j5.cc	/^int solve (int n, int k, int min){$/;"	f	typeref:typename:int
+solve	problems/dmoj/RGCG/p3.cc	/^ll solve(ll  poly[], int n, ll  x, ll  y){$/;"	f	typeref:typename:ll
+solve	problems/leetcode/coinchange.cc	/^    int solve(int *DP, vector<int>&coins, int amount){$/;"	f	class:Solution	typeref:typename:int	file:
+solve	problems/leetcode/int-replacement.cc	/^    long solve(map<long, long>& DP, long n){$/;"	f	class:Solution	typeref:typename:long	file:
+solve	problems/leetcode/max-length-pair.cc	/^    int solve(vector<int>& DP, vector<vector<int>>& pairs, int pair){$/;"	f	class:Solution	typeref:typename:int	file:
+solve	problems/leetcode/sudoku.cc	/^    bool solve(vector<vector<int> >& state)$/;"	f	class:Solution	typeref:typename:bool	file:
+solve	problems/leetcode/surrounded_regions.cpp	/^    void solve(vector<vector<char>>& board) {$/;"	f	class:Solution	typeref:typename:void	file:
+solve	problems/leetcode/trap-rain.cc	/^    int solve(vector<int>& heights, int start){$/;"	f	class:Solution	typeref:typename:int	file:
+solveAugmented	problems/dmoj/uncategorized/det.js	/^function solveAugmented(matrix){$/;"	f
+solveSudoku	problems/leetcode/sudoku.cc	/^    void solveSudoku(vector<vector<char>>& board) {$/;"	f	class:Solution	typeref:typename:void	file:
+sort	codebook/sorts/mergesort.c	/^void sort (int * a, int n)$/;"	f	typeref:typename:void
+sort	problems/leetcode/sort-list.cpp	/^    ListNode* sort(ListNode* a, int n){$/;"	f	class:Solution	typeref:typename:ListNode *	file:
+sortLine	problems/dmoj/dmopc/dmopc16/p3.cpp	/^bool sortLine(Line a, Line b){$/;"	f	typeref:typename:bool
+sortList	problems/leetcode/sort-list.cpp	/^    ListNode* sortList(ListNode* head) {$/;"	f	class:Solution	typeref:typename:ListNode *	file:
+sorted	contests/tle16/p4.cc	/^bool sorted(vector<int> & a, int n)$/;"	f	typeref:typename:bool
+sortedListToBST	problems/leetcode/sorted-list-to-binary-tree.cc	/^    TreeNode* sortedListToBST(ListNode* head) {$/;"	f	class:Solution	typeref:typename:TreeNode *	file:
+sortedToBST	problems/leetcode/sorted-list-to-binary-tree.cc	/^  TreeNode *sortedToBST(ListNode *left, int n){$/;"	f	class:Solution	typeref:typename:TreeNode *	file:
+sp	problems/ccc/ccc_02_s4.cc	/^int sp(int ind){$/;"	f	typeref:typename:int
+sp	problems/dmoj/classics/shortest_paths.cpp	/^void sp(int source)$/;"	f	typeref:typename:void
+splitListToParts	problems/leetcode/splitlinkedlist.cc	/^    vector<ListNode*> splitListToParts(ListNode* root, int k) {$/;"	f	class:Solution	typeref:typename:vector<ListNode * >	file:
+start	problems/leetcode/merge-intervals.cc	/^      int start;$/;"	m	struct:Solution::itr	typeref:typename:int	file:
+state	contests/tle16/p3.cc	/^typedef pair<int, pair<int, vector<bool>> > state;$/;"	t	typeref:typename:pair<int,pair<int,vector<bool>>>	file:
+state	problems/dmoj/uncategorized/pickit.cc	/^int state[201][201]; $/;"	v	typeref:typename:int[201][201]
+std	codebook/datastructures/linked_list.cpp	/^using namespace std; $/;"	v	typeref:struct:Node using namespace
+std	problems/dmoj/other/Mobitel/mobitel.c	/^using namespace std;$/;"	v	typeref:typename:using namespace
+str	problems/ccc/ccc_03_s4.cc	/^  string *str; $/;"	m	struct:Sub	typeref:typename:string *	file:
+strs	problems/dmoj/uncategorized/det.js	/^var strs[N]; $/;"	v
+sum	codebook/datastructures/binary_index_tree.cc	/^int sum(int a, int b){$/;"	f	typeref:typename:int
+sum	codebook/datastructures/binary_index_tree.cc	/^int sum(int n)$/;"	f	typeref:typename:int
+sum	problems/ccc/ccc05s5.cc	/^ll sum(ll n)$/;"	f	typeref:typename:ll
+sum	problems/cco/cco_10_p3.cc	/^int sum(int a, int b){$/;"	f	typeref:typename:int
+sum	problems/cco/cco_10_p3.cc	/^int sum(int n)$/;"	f	typeref:typename:int
+sum	problems/dmoj/other/binary_index_tree_test.cc	/^ll sum(int a, int b){$/;"	f	typeref:typename:ll
+sum	problems/dmoj/other/binary_index_tree_test.cc	/^ll sum(int n)$/;"	f	typeref:typename:ll
+sum2	problems/dmoj/other/binary_index_tree_test.cc	/^ll sum2(ll n){$/;"	f	typeref:typename:ll
+sumOfLeftLeaves	problems/leetcode/sum_of_left_leaves.cpp	/^    int sumOfLeftLeaves(TreeNode* root) {$/;"	f	class:Solution	typeref:typename:int	file:
+sumProper	problems/euler/p23.cc	/^long sumProper(int x){$/;"	f	typeref:typename:long
+sumRange	problems/leetcode/range_sum_query.cpp	/^    int sumRange(int i, int j) {  $/;"	f	class:NumArray	typeref:typename:int	file:
+swap	codebook/datastructures/heap.cc	/^void swap(vector<T>& v, int a, int b){$/;"	f	typeref:typename:void
+swap	codebook/sorts/mergesort.c	/^void swap(int * a, int b, int c)$/;"	f	typeref:typename:void
+swap	codebook/sorts/quicksort.c	/^void swap (int * arr, int a , int b){$/;"	f	typeref:typename:void
+swap	problems/hackerrank/datastructures/heap/qheap.cc	/^void swap(vector<T>& v, int a, int b){$/;"	f	typeref:typename:void
+temp_b	contests/hackercup/round1/p2/fighting_zombies.cc	/^bitset<55> temp_b ;$/;"	v	typeref:typename:bitset<55>
+test	codebook/datastructures/avl_tree.cc	/^void test() {$/;"	f	typeref:typename:void
+threeSum	problems/leetcode/3sum.cc	/^    vector<vector<int>> threeSum(vector<int>& nums) {$/;"	f	class:Solution	typeref:typename:vector<vector<int>>	file:
+titleToNumber	problems/leetcode/excel_sheet.cpp	/^    int titleToNumber(string s) {$/;"	f	class:Solution	typeref:typename:int	file:
+top	problems/dmoj/RGCG/p4.cc	/^void top(){$/;"	f	typeref:typename:void
+top	problems/leetcode/stackusingqueues.cc	/^    int top() {$/;"	f	class:MyStack	typeref:typename:int	file:
+top_order	problems/dmoj/RGCG/p4.cc	/^vector<int> top_order; $/;"	v	typeref:typename:vector<int>
+towerColoring	contests/adininitum18/towerheight.cc	/^ull towerColoring(int n){$/;"	f	typeref:typename:ull
+trap	problems/leetcode/trap-rain.cc	/^    int trap(vector<int>& height) {$/;"	f	class:Solution	typeref:typename:int	file:
+tre	problems/cco/cco_prep1_p3.cc	/^Node<int>* tre[100005];$/;"	v	typeref:typename:Node<int> * [100005]
+treeNode	codebook/datastructures/segment_tree.cc	/^struct treeNode(){$/;"	f	typeref:typename:struct
+twoSum	problems/leetcode/two_sum.py	/^    def twoSum(self, nums, target):$/;"	m	class:Solution
+ull	codebook/math/gaussian_elim.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	codebook/math/general.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	contests/adininitum18/divexplore.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	contests/adininitum18/pythagoreantriple.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	contests/adininitum18/towerheight.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	contests/codejam/misc/oversized_pancakes/oversizedpancakes.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	contests/codejam/misc/stalls/stalls.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	contests/codejam/misc/tidynumbers/tidy.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	contests/tle16/p1.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	contests/tle16/p2.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	contests/tle16/p3.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	contests/tle16/p4.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	contests/weekofcode33/transform-to-palindrome.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	problems/ccc/ccc05s5.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	problems/ccc/ccc_03_s4.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	problems/ccc/ccc_08_s5.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	problems/ccc/ccc_10_j4.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	problems/ccc/ccc_13_j4.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	problems/ccc/ccc_13_s3.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	problems/ccc/ccc_15_s3.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	problems/ccc/ccc_15_s5.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	problems/ccc/ccc_16_s4.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	problems/ccc/ccc_17_s3.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	problems/cco/cco_99_p2.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	problems/cco/cco_prep1_p3.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	problems/dmoj/ahardergame.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	problems/dmoj/coci/coci_14_c7_p2.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	problems/dmoj/dmopc/dmopc_14_c4p4.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	problems/dmoj/gcc/gcc_16_p1.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	problems/dmoj/tle/tle16c7p4.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	problems/dmoj/uncategorized/3drotate.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	problems/dmoj/uncategorized/a_plus_b.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	problems/dmoj/uncategorized/badpaths.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	problems/dmoj/uncategorized/det.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	problems/dmoj/uncategorized/inaho.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	problems/dmoj/uncategorized/pickit.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	problems/dmoj/uncategorized/primefact.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	problems/euler/p23.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	problems/euler/p24.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	problems/euler/p25.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	problems/hackerrank/datastructures/arrays/arrayds.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	problems/ioi/ioi13p4.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	problems/leetcode/anagramsinastring.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	problems/leetcode/licenseplate.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+ull	problems/leetcode/longest_palindromic_substring.cc	/^typedef unsigned long long ull;$/;"	t	typeref:typename:unsigned long long	file:
+update	codebook/datastructures/binary_index_tree.cc	/^void update(int k, int v)$/;"	f	typeref:typename:void
+update	problems/ccc/ccc05s5.cc	/^void update(int k, int v)$/;"	f	typeref:typename:void
+update	problems/cco/cco_10_p3.cc	/^void update(int k, int v)$/;"	f	typeref:typename:void
+update	problems/dmoj/other/binary_index_tree_test.cc	/^void update(int k, int v)$/;"	f	typeref:typename:void
+update2	problems/dmoj/other/binary_index_tree_test.cc	/^void update2(int k, int v){$/;"	f	typeref:typename:void
+updateHeight	codebook/datastructures/avl_tree.cc	/^  ll updateHeight() { $/;"	f	struct:Node	typeref:typename:ll	file:
+updateHeight	problems/cco/cco_prep1_p3.cc	/^  ll updateHeight() { $/;"	f	struct:Node	typeref:typename:ll	file:
+update_shortest	contests/hackercup/round1/p3/manic.cc	/^void update_shortest(vector<vector< pair<int,int> > > adjList, int source)$/;"	f	typeref:typename:void
+v	problems/cco/cco10p5.c	/^  double v;$/;"	m	struct:__anon09a70be80108	typeref:typename:double	file:
+v	problems/cco/cco10p5.cc	/^  double v;$/;"	m	struct:__anon3e88894b0108	typeref:typename:double	file:
+val	codebook/datastructures/avl_tree.cc	/^  T val; $/;"	m	struct:Node	typeref:typename:T	file:
+val	codebook/datastructures/binary_search_tree.cc	/^  int val; $/;"	m	struct:Node	typeref:typename:int	file:
+val	codebook/datastructures/linked_list.cpp	/^  int val; $/;"	m	struct:Node	typeref:typename:int	file:
+val	problems/cco/cco_prep1_p3.cc	/^  T val; $/;"	m	struct:Node	typeref:typename:T	file:
+val	problems/ctci/ch3/stack.cpp	/^  int val; $/;"	m	struct:StackNode	typeref:typename:int	file:
+val	problems/leetcode/sort-list.cpp	/^  int val;$/;"	m	struct:ListNode	typeref:typename:int	file:
+validPaths	problems/ccc/ccc_01_s3.cc	/^int validPaths[26][26];  $/;"	v	typeref:typename:int[26][26]
+vec_add	problems/cco/cco10p5.c	/^Vec vec_add(Vec a, Vec b)$/;"	f	typeref:typename:Vec
+vec_add	problems/cco/cco10p5.cc	/^Vec vec_add(Vec a, Vec b)$/;"	f	typeref:typename:Vec
+vec_cap	problems/cco/cco10p5.c	/^Vec vec_cap(Vec a, Vec b, Vec c)$/;"	f	typeref:typename:Vec
+vec_cap	problems/cco/cco10p5.cc	/^Vec vec_cap(Vec a, Vec b, Vec c)$/;"	f	typeref:typename:Vec
+vec_dot	problems/cco/cco10p5.c	/^double vec_dot(Vec a, Vec b)$/;"	f	typeref:typename:double
+vec_dot	problems/cco/cco10p5.cc	/^double vec_dot(Vec a, Vec b)$/;"	f	typeref:typename:double
+vec_length	problems/cco/cco10p5.c	/^double vec_length(Vec a)$/;"	f	typeref:typename:double
+vec_length	problems/cco/cco10p5.cc	/^double vec_length(Vec a)$/;"	f	typeref:typename:double
+vec_print	problems/cco/cco10p5.cc	/^Vec vec_print(Vec a)$/;"	f	typeref:typename:Vec
+vec_proj	problems/cco/cco10p5.c	/^Vec vec_proj(Vec a, Vec b)$/;"	f	typeref:typename:Vec
+vec_proj	problems/cco/cco10p5.cc	/^Vec vec_proj(Vec a, Vec b)$/;"	f	typeref:typename:Vec
+vec_sub	problems/cco/cco10p5.c	/^Vec vec_sub(Vec a, Vec b)$/;"	f	typeref:typename:Vec
+vec_sub	problems/cco/cco10p5.cc	/^Vec vec_sub(Vec a, Vec b)$/;"	f	typeref:typename:Vec
+vi	problems/ccc/ccc_07_s4.cc	/^typedef vector<int> vi ;$/;"	t	typeref:typename:vector<int>	file:
+visited	contests/tle16/p4.cc	/^unordered_set<vector<int>, VectorHash > visited;$/;"	v	typeref:typename:unordered_set<vector<int>,VectorHash>
+visited	problems/ccc/ccc_03_s3.cc	/^bool visited[25][25]; $/;"	v	typeref:typename:bool[25][25]
+visited	problems/ccc/ccc_16_s3.cc	/^bool visited[100001];$/;"	v	typeref:typename:bool[100001]
+visited	problems/cco/cco10p5.c	/^  bool visited; $/;"	m	struct:__anon09a70be80108	typeref:typename:bool	file:
+visited	problems/cco/cco10p5.cc	/^  bool visited; $/;"	m	struct:__anon3e88894b0108	typeref:typename:bool	file:
+visited	problems/dmoj/RGCG/p4.cc	/^bool visited[1000000];$/;"	v	typeref:typename:bool[1000000]
+visited	problems/hackerrank/graph/journey_to_the_moon.cc	/^multiset<int> visited;$/;"	v	typeref:typename:multiset<int>
+visited	problems/leetcode/surrounded_regions.cpp	/^    bool visited[][]; $/;"	m	class:Solution	typeref:typename:bool[][]	file:
+waypoints	problems/cco/cco10p5.c	/^Planet waypoints[1001]; $/;"	v	typeref:typename:Planet[1001]
+waypoints	problems/cco/cco10p5.cc	/^Planet waypoints[1001]; $/;"	v	typeref:typename:Planet[1001]
+weight	problems/leetcode/evaluate_division.cpp	/^  double weight;$/;"	m	struct:Edge	typeref:typename:double	file:
+x	codebook/graph/astar.cc	/^  double x;$/;"	m	struct:Point	typeref:typename:double	file:
+x	problems/cco/cco10p5.c	/^  double x; $/;"	m	struct:__anon09a70be80108	typeref:typename:double	file:
+x	problems/cco/cco10p5.c	/^  double x;$/;"	m	struct:__anon09a70be80208	typeref:typename:double	file:
+x	problems/cco/cco10p5.c	/^  double x;$/;"	m	struct:__anon09a70be80308	typeref:typename:double	file:
+x	problems/cco/cco10p5.cc	/^  double x; $/;"	m	struct:__anon3e88894b0108	typeref:typename:double	file:
+x	problems/cco/cco10p5.cc	/^  double x;$/;"	m	struct:__anon3e88894b0208	typeref:typename:double	file:
+x	problems/cco/cco10p5.cc	/^  double x;$/;"	m	struct:__anon3e88894b0308	typeref:typename:double	file:
+x	problems/dmoj/uncategorized/3drotate.cc	/^double x, y, z;$/;"	m	class:Vec3	typeref:typename:double	file:
+y	codebook/graph/astar.cc	/^  double y;$/;"	m	struct:Point	typeref:typename:double	file:
+y	problems/cco/cco10p5.c	/^  double y;$/;"	m	struct:__anon09a70be80108	typeref:typename:double	file:
+y	problems/cco/cco10p5.c	/^  double y;$/;"	m	struct:__anon09a70be80208	typeref:typename:double	file:
+y	problems/cco/cco10p5.c	/^  double y;$/;"	m	struct:__anon09a70be80308	typeref:typename:double	file:
+y	problems/cco/cco10p5.cc	/^  double y;$/;"	m	struct:__anon3e88894b0108	typeref:typename:double	file:
+y	problems/cco/cco10p5.cc	/^  double y;$/;"	m	struct:__anon3e88894b0208	typeref:typename:double	file:
+y	problems/cco/cco10p5.cc	/^  double y;$/;"	m	struct:__anon3e88894b0308	typeref:typename:double	file:
+y	problems/dmoj/uncategorized/3drotate.cc	/^double x, y, z;$/;"	m	class:Vec3	typeref:typename:double	file:
+z	problems/cco/cco10p5.c	/^  double z; $/;"	m	struct:__anon09a70be80208	typeref:typename:double	file:
+z	problems/cco/cco10p5.c	/^  double z; $/;"	m	struct:__anon09a70be80308	typeref:typename:double	file:
+z	problems/cco/cco10p5.c	/^  double z;$/;"	m	struct:__anon09a70be80108	typeref:typename:double	file:
+z	problems/cco/cco10p5.cc	/^  double z; $/;"	m	struct:__anon3e88894b0208	typeref:typename:double	file:
+z	problems/cco/cco10p5.cc	/^  double z; $/;"	m	struct:__anon3e88894b0308	typeref:typename:double	file:
+z	problems/cco/cco10p5.cc	/^  double z;$/;"	m	struct:__anon3e88894b0108	typeref:typename:double	file:
+z	problems/dmoj/uncategorized/3drotate.cc	/^double x, y, z;$/;"	m	class:Vec3	typeref:typename:double	file:
+~BST	codebook/datastructures/binary_search_tree.cc	/^BST::~BST(){$/;"	f	class:BST
