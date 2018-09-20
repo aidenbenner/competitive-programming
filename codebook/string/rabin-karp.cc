@@ -2,7 +2,7 @@
 #include <map>
 #include <set>
 #include <vector>
-#include <string> 
+#include <string>
 
 using namespace std;
 
@@ -21,7 +21,7 @@ int hashstr(string s) {
 
 int rabinKarp(string& source, vector<string> pats) {
     string mp[MAX_MOD];
-    std::fill(mp, mp + MAX_MOD, ""); 
+    std::fill(mp, mp + MAX_MOD, "");
     for(int i = 0; i<pats.size(); i++){
         mp[hashstr(pats[i])] = pats[i];
     }
@@ -37,7 +37,7 @@ int rabinKarp(string& source, vector<string> pats) {
             }
         }
     }
-    return -1; 
+    return -1;
 }
 
 int n;
@@ -45,7 +45,7 @@ int main()
 {
     string a,b;
     cin >> a >> b;
-    vector<string> s; 
+    vector<string> s;
     s.push_back(b);
     cout << rabinKarp(a, s) << endl;
 }
